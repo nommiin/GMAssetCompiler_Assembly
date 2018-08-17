@@ -1,4 +1,5 @@
 # SWFReader.eBitmapType
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -21,6 +22,7 @@
     * SWFReader.eBitmapType eLossless8bitA
     * SWFReader.eBitmapType eLossless32bit
 # SWFReader.eLosslessFormat
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -37,6 +39,7 @@
     * SWFReader.eLosslessFormat eLossless24bit
     * SWFReader.eLosslessFormat eLossless32bit
 # SWFReader.Bitmap
+  ## Members
     * SWFReader.eBitmapType get_bitmaptype()
     * Void set_bitmaptype(SWFReader.eBitmapType)
     * Byte[] get_imagedata()
@@ -81,6 +84,7 @@
     * SWFReader.eDictionaryItemType type
     * Int32 Id
 # SWFReader.DictionaryItem
+  ## Members
     * SWFReader.eDictionaryItemType get_type()
     * Void set_type(SWFReader.eDictionaryItemType)
     * Int32 get_Id()
@@ -96,6 +100,7 @@
     * SWFReader.eDictionaryItemType type
     * Int32 Id
 # SWFReader.Vec2f
+  ## Members
     * Single get_X()
     * Void set_X(Single)
     * Single get_Y()
@@ -115,6 +120,7 @@
     * Single X
     * Single Y
 # SWFReader.CollisionMask
+  ## Members
     * Byte[] get_data()
     * Void set_data(Byte[])
     * Int32 get_width()
@@ -152,6 +158,7 @@
     * Int32 bboxbottom
     * Byte[] rledata
 # SWFReader.eDictionaryItemType
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -170,6 +177,7 @@
     * SWFReader.eDictionaryItemType eTextField
     * SWFReader.eDictionaryItemType eSprite
 # SWFReader.eDLTag
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -184,6 +192,7 @@
     * SWFReader.eDLTag ePlace
     * SWFReader.eDLTag eShowFrame
 # SWFReader.ColTransform
+  ## Members
     * Int32[] get_colmul()
     * Void set_colmul(Int32[])
     * Int32[] get_coladd()
@@ -199,6 +208,7 @@
     * Int32[] colmul
     * Int32[] coladd
 # SWFReader.DLEntry
+  ## Members
     * SWFReader.eDLTag get_Tag()
     * Void set_Tag(SWFReader.eDLTag)
     * SWFReader.Matrix33 get_Matrix()
@@ -224,6 +234,7 @@
     * Int32 ClipDepth
     * SWFReader.ColTransform ColTrans
 # SWFReader.DisplayList
+  ## Members
     * System.Collections.Generic.List`1[SWFReader.DLEntry] get_Entries()
     * Void set_Entries(System.Collections.Generic.List`1[SWFReader.DLEntry])
     * Void AddPlace(Int32, Int32, Int32, SWFReader.Matrix33, SWFReader.ColTransform)
@@ -235,6 +246,7 @@
     * Void .ctor()
     * System.Collections.Generic.List`1[SWFReader.DLEntry] Entries
 # SWFReader.eFillStyleType
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -251,6 +263,7 @@
     * SWFReader.eFillStyleType eGradient
     * SWFReader.eFillStyleType eBitmap
 # SWFReader.FillStyleData
+  ## Members
     * SWFReader.eFillStyleType get_type()
     * Void set_type(SWFReader.eFillStyleType)
     * Boolean Matches(SWFReader.FillStyleData)
@@ -263,6 +276,7 @@
     * Void .ctor(SWFReader.FillStyleData)
     * SWFReader.eFillStyleType type
 # SWFReader.SolidFillStyleData
+  ## Members
     * Boolean Matches(SWFReader.FillStyleData)
     * Void Write(System.IO.Stream)
     * SWFReader.eFillStyleType get_type()
@@ -279,6 +293,7 @@
     * Byte blue
     * Byte alpha
 # SWFReader.GradientRecord
+  ## Members
     * Boolean Matches(SWFReader.GradientRecord)
     * UInt32 GetUintCol()
     * Void Write(System.IO.Stream)
@@ -295,6 +310,7 @@
     * Byte blue
     * Byte alpha
 # SWFReader.eGradientType
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -309,6 +325,7 @@
     * SWFReader.eGradientType eLinear
     * SWFReader.eGradientType eRadial
 # SWFReader.GradientFillStyleData
+  ## Members
     * SWFReader.eGradientType get_gradType()
     * Void set_gradType(SWFReader.eGradientType)
     * SWFReader.Matrix33 get_transMat()
@@ -336,6 +353,7 @@
     * Int32 tpeindex
     * SWFReader.eFillStyleType type
 # SWFReader.eBitmapFillType
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -352,6 +370,7 @@
     * SWFReader.eBitmapFillType eRepeatPoint
     * SWFReader.eBitmapFillType eClampPoint
 # SWFReader.BitmapFillStyleData
+  ## Members
     * SWFReader.eBitmapFillType get_bitmapFillType()
     * Void set_bitmapFillType(SWFReader.eBitmapFillType)
     * Int32 get_charID()
@@ -373,6 +392,7 @@
     * SWFReader.Matrix33 transMat
     * SWFReader.eFillStyleType type
 # SWFReader.FontKerningRecord
+  ## Members
     * UInt16 get_leftChar()
     * Void set_leftChar(UInt16)
     * UInt16 get_rightChar()
@@ -390,6 +410,7 @@
     * UInt16 rightChar
     * Int16 adjustment
 # SWFReader.Font
+  ## Members
     * System.Collections.Generic.List`1[SWFReader.ShapeData] get_glyphs()
     * Void set_glyphs(System.Collections.Generic.List`1[SWFReader.ShapeData])
     * System.Collections.Generic.List`1[System.UInt16] get_glyphToCodeTable()
@@ -429,6 +450,7 @@
     * SWFReader.eDictionaryItemType type
     * Int32 Id
 # SWFReader.LineCapStyle
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -444,6 +466,7 @@
     * SWFReader.LineCapStyle None
     * SWFReader.LineCapStyle Square
 # SWFReader.LineJoinStyle
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -459,6 +482,7 @@
     * SWFReader.LineJoinStyle Bevel
     * SWFReader.LineJoinStyle Miter
 # SWFReader.LineStyleData
+  ## Members
     * Boolean Matches(SWFReader.LineStyleData)
     * Void Write(System.IO.Stream)
     * System.String ToString()
@@ -479,6 +503,7 @@
     * Int32 FillStyle
     * Single miterlimitfactor
 # SWFReader.Matrix33
+  ## Members
     * Single[] get_values()
     * Void set_values(Single[])
     * Boolean Equals(SWFReader.Matrix33)
@@ -495,6 +520,7 @@
     * Void .ctor(SWFReader.Matrix33)
     * Single[] values
 # SWFReader.Rect
+  ## Members
     * Int32 get_minX()
     * Void set_minX(Int32)
     * Int32 get_maxX()
@@ -517,6 +543,7 @@
     * Int32 minY
     * Int32 maxY
 # SWFReader.Rectf
+  ## Members
     * Single get_minX()
     * Void set_minX(Single)
     * Single get_maxX()
@@ -541,6 +568,7 @@
     * Single minY
     * Single maxY
 # SWFReader.SubShape
+  ## Members
     * System.Collections.Generic.List`1[SWFReader.Vec2] get_Points()
     * Void set_Points(System.Collections.Generic.List`1[SWFReader.Vec2])
     * System.Collections.Generic.List`1[SWFReader.Vec2] get_Lines()
@@ -600,6 +628,7 @@
     * Int32 CurrSnapshot
     * Boolean debughighlight
 # SWFReader.StyleGroup
+  ## Members
     * System.Collections.Generic.List`1[SWFReader.SubShape] get_SubShapes()
     * Void set_SubShapes(System.Collections.Generic.List`1[SWFReader.SubShape])
     * System.Collections.Generic.List`1[SWFReader.FillStyleData] get_FillStyles()
@@ -618,6 +647,7 @@
     * System.Collections.Generic.List`1[SWFReader.FillStyleData] FillStyles
     * System.Collections.Generic.List`1[SWFReader.LineStyleData] LineStyles
 # SWFReader.ShapeData
+  ## Members
     * System.Collections.Generic.List`1[SWFReader.StyleGroup] get_StyleGroups()
     * Void set_StyleGroups(System.Collections.Generic.List`1[SWFReader.StyleGroup])
     * Int32 get_MinX()
@@ -663,6 +693,7 @@
     * SWFReader.Triangulator m_Triangulator
     * Boolean hack
 # SWFReader.Shape
+  ## Members
     * Boolean Matches(SWFReader.Shape)
     * Void Write(System.IO.Stream)
     * Void CalculateBounds(SWFReader.Matrix33, Int32 ByRef, Int32 ByRef, Int32 ByRef, Int32 ByRef)
@@ -680,6 +711,7 @@
     * Int32 Id
     * SWFReader.ShapeData shapeData
 # SWFReader.ShapeDrawer
+  ## Members
     * Void DrawShapeStyleSubShape(SWFReader.ShapeData, SWFReader.StyleGroup, SWFReader.Matrix33, SWFReader.SubShape, System.Drawing.Graphics)
     * Void DrawSubShapeWithMatrix(SWFReader.ShapeData, SWFReader.SubShape, SWFReader.Matrix33, System.Drawing.Graphics, System.Drawing.Pen, System.Drawing.SolidBrush, System.Drawing.Pen, System.Drawing.SolidBrush)
     * Void DrawStyleGroupWithMatrix(SWFReader.ShapeData, SWFReader.StyleGroup, SWFReader.Matrix33, SWFReader.ColTransform, System.Drawing.Graphics)
@@ -693,6 +725,7 @@
     * Void .ctor()
     * Boolean DrawingSnapshots
 # SWFReader.Frame
+  ## Members
     * System.String get_Name()
     * Void set_Name(System.String)
     * Int32 get_Start()
@@ -708,6 +741,7 @@
     * Int32 Start
     * Int32 End
 # SWFReader.Sprite
+  ## Members
     * SWFReader.eDictionaryItemType get_type()
     * Void set_type(SWFReader.eDictionaryItemType)
     * Int32 get_Id()
@@ -724,6 +758,7 @@
     * SWFReader.DisplayList displayList
     * System.Collections.Generic.List`1[SWFReader.DLEntry] currentEntries
 # SWFReader.StreamHelper
+  ## Members
     * Int16 ReadShort(System.IO.Stream)
     * Int32 ReadInteger(System.IO.Stream)
     * Int64 ReadLong(System.IO.Stream)
@@ -752,6 +787,7 @@
     * Int32 GetHashCode()
     * System.Type GetType()
 # SWFReader.eSWFUsageFlags
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -778,6 +814,7 @@
     * SWFReader.eSWFUsageFlags CantPreview
     * SWFReader.eSWFUsageFlags MAX
 # SWFReader.SwfBitmapEntry
+  ## Members
     * System.Drawing.Bitmap get_Image()
     * Void set_Image(System.Drawing.Bitmap)
     * Boolean get_SeperateTexturePage()
@@ -790,6 +827,7 @@
     * System.Drawing.Bitmap Image
     * Boolean SeperateTexturePage
 # SWFReader.BuildShapeDataTask
+  ## Members
     * SWFReader.Shape get_m_Shape()
     * Void set_m_Shape(SWFReader.Shape)
     * Single get_m_ShapeTolerance()
@@ -805,6 +843,7 @@
     * Single m_ShapeTolerance
     * SWFReader.SWFDefineShapeTag m_ShapeTag
 # SWFReader.SwfFile
+  ## Members
     * Void Trace(System.String)
     * Void Trace(System.String, System.Object[])
     * SWFReader.ShapeData BuildShapeData(System.Collections.Generic.List`1[SWFReader.SWFShapeRecord], SWFReader.SWFShape, Int32, Single, Int32)
@@ -841,6 +880,7 @@
     * Int32 SWF_EXT_FLAG
     * Single GlyphTolerance
 # SWFReader.SwfFile+<>c__DisplayClass31_0
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -851,6 +891,7 @@
     * SWFReader.SwfFile <>4__this
     * System.Threading.WaitCallback <>9__0
 # SWFReader.BitwiseBinaryReaderState
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -860,6 +901,7 @@
     * Int32 currbit
     * Int64 pos
 # SWFReader.BitwiseBinaryReader
+  ## Members
     * Void Align()
     * Int32 ReadSInt(Int32)
     * UInt32 ReadUInt(Int32)
@@ -903,6 +945,7 @@
     * Void .ctor(System.IO.Stream)
     * System.IO.Stream BaseStream
 # SWFReader.SWFFileParser
+  ## Members
     * Void ReadSWF(System.String)
     * Boolean ParseTags(SWFReader.BitwiseBinaryReader, System.Collections.Generic.List`1[SWFReader.SWFBaseTag])
     * System.String ToString()
@@ -913,6 +956,7 @@
     * SWFReader.SWFHeader header
     * System.Collections.Generic.List`1[SWFReader.SWFBaseTag] tagList
 # SWFReader.SWFHeader
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -927,6 +971,7 @@
     * UInt16 FrameCount
     * Int32 MAX_VERSION
 # SWFReader.LosslessFormat
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -944,6 +989,7 @@
     * SWFReader.LosslessFormat Lossless24bit
     * SWFReader.LosslessFormat Lossless32bit
 # SWFReader.SWFDefineBitsTag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -956,6 +1002,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFBaseTag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -966,6 +1013,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFDefineBitsJPEG2Tag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -978,6 +1026,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFDefineBitsJPEG3Tag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -991,6 +1040,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFDefineBitsLosslessTag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1008,6 +1058,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFDefineBitsLossless2Tag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1025,6 +1076,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFDefineEditTextTag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1065,6 +1117,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFDefineFontTag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1078,6 +1131,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFDefineFont2Tag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1112,6 +1166,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFDefineFont3Tag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1146,6 +1201,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFDefineShapeTag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1159,6 +1215,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFDefineShape2Tag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1172,6 +1229,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFDefineShape3Tag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1185,6 +1243,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFDefineShape4Tag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1202,6 +1261,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFDefineSpriteTag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1215,6 +1275,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFDefineTextTag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1231,6 +1292,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFDefineText2Tag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1247,6 +1309,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFDoActionTag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String Dump()
     * System.String ToString()
@@ -1258,6 +1321,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFEndTag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1268,6 +1332,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFFileAttributesTag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1278,6 +1343,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFFrameLabelTag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1289,6 +1355,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFJPEGTablesTag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1300,6 +1367,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFPlaceObjectTag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1317,6 +1385,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFPlaceObject2Tag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1342,6 +1411,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFPlaceObject3Tag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1378,6 +1448,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.TagType
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -1438,6 +1509,7 @@
     * SWFReader.TagType DefineMorphShape2
     * SWFReader.TagType StartSound2
 # SWFReader.SWFRemoveObjectTag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1450,6 +1522,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFRemoveObject2Tag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1461,6 +1534,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFSetBackgroundColourTag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1472,6 +1546,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFShowFrameTag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1482,6 +1557,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFUnknownTag
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1493,6 +1569,7 @@
     * UInt32 Size
     * Boolean LongTag
 # SWFReader.SWFColour
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1504,6 +1581,7 @@
     * Byte blue
     * Byte alpha
 # SWFReader.SWFRGB
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1516,6 +1594,7 @@
     * Byte blue
     * Byte alpha
 # SWFReader.SWFRGBA
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1528,6 +1607,7 @@
     * Byte blue
     * Byte alpha
 # SWFReader.SWFARGB
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1539,6 +1619,7 @@
     * Byte blue
     * Byte alpha
 # SWFReader.SWFRGB15
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1550,6 +1631,7 @@
     * Byte blue
     * Byte alpha
 # SWFReader.SWFColourTransform
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1565,6 +1647,7 @@
     * Int32 GreenAdd
     * Int32 BlueAdd
 # SWFReader.SWFColourTransformWithAlpha
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1582,6 +1665,7 @@
     * Int32 GreenAdd
     * Int32 BlueAdd
 # SWFReader.FillType
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -1602,6 +1686,7 @@
     * SWFReader.FillType NonSmoothedRepeatingBitmap
     * SWFReader.FillType NonSmoothedClippedBitmap
 # SWFReader.SWFFillStyle
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader, Int32)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1615,6 +1700,7 @@
     * UInt16 BitmapId
     * SWFReader.SWFMatrix BitmapMatrix
 # SWFReader.SWFGradRecord
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader, Int32)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1624,6 +1710,7 @@
     * Byte Ratio
     * SWFReader.SWFColour Colour
 # SWFReader.GradientSpreadMode
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -1640,6 +1727,7 @@
     * SWFReader.GradientSpreadMode Repeat
     * SWFReader.GradientSpreadMode Reserved
 # SWFReader.GradientInterpolationMode
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -1656,6 +1744,7 @@
     * SWFReader.GradientInterpolationMode Reserved1
     * SWFReader.GradientInterpolationMode Reserved2
 # SWFReader.SWFGradient
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader, Int32, Int32)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1668,6 +1757,7 @@
     * System.Collections.Generic.List`1[SWFReader.SWFGradRecord] GradientRecords
     * UInt16 FocalPoint
 # SWFReader.SWFFillStyleArray
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader, Int32)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1676,6 +1766,7 @@
     * Void .ctor()
     * System.Collections.Generic.List`1[SWFReader.SWFFillStyle] FillStyles
 # SWFReader.FilterType
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -1696,6 +1787,7 @@
     * SWFReader.FilterType ColourMatrix
     * SWFReader.FilterType GradientBevel
 # SWFReader.SWFFilterList
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1704,6 +1796,7 @@
     * Void .ctor()
     * System.Collections.Generic.List`1[SWFReader.SWFFilter] Filters
 # SWFReader.SWFFilter
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1712,6 +1805,7 @@
     * Void .ctor()
     * Byte FilterID
 # SWFReader.SWFDropShadowFilter
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1730,6 +1824,7 @@
     * UInt32 Passes
     * Byte FilterID
 # SWFReader.SWFBlurFilter
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1741,6 +1836,7 @@
     * UInt32 Passes
     * Byte FilterID
 # SWFReader.SWFGlowFilter
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1757,6 +1853,7 @@
     * UInt32 Passes
     * Byte FilterID
 # SWFReader.SWFBevelFilter
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1777,6 +1874,7 @@
     * UInt32 Passes
     * Byte FilterID
 # SWFReader.SWFGradientGlowFilter
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1797,6 +1895,7 @@
     * UInt32 Passes
     * Byte FilterID
 # SWFReader.SWFConvolutionFilter
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1813,6 +1912,7 @@
     * Boolean PreserveAlpha
     * Byte FilterID
 # SWFReader.SWFColourMatrixFilter
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1822,6 +1922,7 @@
     * Single[] Matrix
     * Byte FilterID
 # SWFReader.SWFGradientBevelFilter
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1842,6 +1943,7 @@
     * UInt32 Passes
     * Byte FilterID
 # SWFReader.SWFKerningRecord
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader, Boolean)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1852,6 +1954,7 @@
     * UInt16 KerningCode2
     * Int16 KerningAdjustment
 # SWFReader.SWFLineCapStyle
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -1867,6 +1970,7 @@
     * SWFReader.SWFLineCapStyle None
     * SWFReader.SWFLineCapStyle Square
 # SWFReader.SWFLineJoinStyle
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -1882,6 +1986,7 @@
     * SWFReader.SWFLineJoinStyle Bevel
     * SWFReader.SWFLineJoinStyle Miter
 # SWFReader.SWFLineStyle
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader, Int32)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1901,6 +2006,7 @@
     * UInt16 MiterLimitFactor
     * SWFReader.SWFFillStyle Fill
 # SWFReader.SWFLineStyleArray
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader, Int32)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1909,6 +2015,7 @@
     * Void .ctor()
     * System.Collections.Generic.List`1[SWFReader.SWFLineStyle] LineStyles
 # SWFReader.SWFMatrix
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1917,6 +2024,7 @@
     * Void .ctor()
     * Single[,] elements
 # SWFReader.SWFRect
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader)
     * Int32 Width()
     * Int32 Height()
@@ -1930,6 +2038,7 @@
     * Int32 Ymin
     * Int32 Ymax
 # SWFReader.SWFShape
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader, Int32)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1938,6 +2047,7 @@
     * Void .ctor()
     * System.Collections.Generic.List`1[SWFReader.SWFShapeRecord] ShapeRecords
 # SWFReader.SWFShapeWithStyle
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader, Int32)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1948,6 +2058,7 @@
     * SWFReader.SWFLineStyleArray LineStyles
     * System.Collections.Generic.List`1[SWFReader.SWFShapeRecord] ShapeRecords
 # SWFReader.SWFShapeRecord
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader, Int32, UInt32 ByRef, UInt32 ByRef)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1956,6 +2067,7 @@
     * Void .ctor()
     * Boolean IsEdgeRecord
 # SWFReader.SWFEndShapeRecord
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader, Int32, UInt32 ByRef, UInt32 ByRef)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1964,6 +2076,7 @@
     * Void .ctor()
     * Boolean IsEdgeRecord
 # SWFReader.SWFStyleChangeRecord
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader, Int32, UInt32 ByRef, UInt32 ByRef)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1984,6 +2097,7 @@
     * SWFReader.SWFLineStyleArray LineStyles
     * Boolean IsEdgeRecord
 # SWFReader.SWFStraightEdgeRecord
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader, Int32, UInt32 ByRef, UInt32 ByRef)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -1994,6 +2108,7 @@
     * Int32 DeltaY
     * Boolean IsEdgeRecord
 # SWFReader.SWFCurvedEdgeRecord
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader, Int32, UInt32 ByRef, UInt32 ByRef)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -2006,6 +2121,7 @@
     * Int32 AnchorDeltaY
     * Boolean IsEdgeRecord
 # SWFReader.SWFTextRecord
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader, Int32, Int32, Int32)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -2024,6 +2140,7 @@
     * UInt16 TextHeight
     * System.Collections.Generic.List`1[SWFReader.SWFGlyphEntry] GlyphEntries
 # SWFReader.SWFGlyphEntry
+  ## Members
     * Boolean Parse(SWFReader.BitwiseBinaryReader, Int32, Int32)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -2033,6 +2150,7 @@
     * UInt32 GlyphIndex
     * Int32 GlyphAdvance
 # SWFReader.eAlignment
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -2049,6 +2167,7 @@
     * SWFReader.eAlignment eCenter
     * SWFReader.eAlignment eJustify
 # SWFReader.TextGlyphEntry
+  ## Members
     * Int32 get_glyphIndex()
     * Void set_glyphIndex(Int32)
     * SWFReader.Matrix33 get_transMat()
@@ -2062,6 +2181,7 @@
     * Int32 glyphIndex
     * SWFReader.Matrix33 transMat
 # SWFReader.TextStyleEntry
+  ## Members
     * Int32 get_fontID()
     * Void set_fontID(Int32)
     * Byte get_red()
@@ -2087,6 +2207,7 @@
     * Byte alpha
     * System.Collections.Generic.List`1[SWFReader.TextGlyphEntry] glyphEntries
 # SWFReader.TextField
+  ## Members
     * Int32 get_MinX()
     * Void set_MinX(Int32)
     * Int32 get_MaxX()
@@ -2150,6 +2271,7 @@
     * SWFReader.eDictionaryItemType type
     * Int32 Id
 # SWFReader.TimelineObject
+  ## Members
     * Int32 get_CharID()
     * Void set_CharID(Int32)
     * Int32 get_CharIndex()
@@ -2188,6 +2310,7 @@
     * Int32 MinY
     * Int32 MaxY
 # SWFReader.TimelineFrame
+  ## Members
     * System.Collections.Generic.List`1[SWFReader.TimelineObject] get_Objects()
     * Void set_Objects(System.Collections.Generic.List`1[SWFReader.TimelineObject])
     * Int32 get_MinX()
@@ -2210,6 +2333,7 @@
     * Int32 MinY
     * Int32 MaxY
 # SWFReader.SpriteDescription
+  ## Members
     * System.Collections.Generic.List`1[SWFReader.TimelineObject] get_objList()
     * Void set_objList(System.Collections.Generic.List`1[SWFReader.TimelineObject])
     * Int32 get_minX()
@@ -2234,6 +2358,7 @@
     * Int32 maxY
     * Int32 largestDepth
 # SWFReader.Timeline
+  ## Members
     * System.Collections.Generic.List`1[SWFReader.DictionaryItem] get_UsedItems()
     * Void set_UsedItems(System.Collections.Generic.List`1[SWFReader.DictionaryItem])
     * System.Collections.Generic.List`1[SWFReader.TimelineFrame] get_Frames()
@@ -2274,6 +2399,7 @@
     * System.Collections.Generic.List`1[SWFReader.CollisionMask] Masks
     * Single g_TwipScale
 # SWFReader.TriangulatorSnapshot
+  ## Members
     * Int32[] get_tri()
     * Void set_tri(Int32[])
     * System.Collections.Generic.List`1[System.Int32] get_contourpoints()
@@ -2288,6 +2414,7 @@
     * Int32[] tri
     * System.Collections.Generic.List`1[System.Int32] contourpoints
 # SWFReader.Triangulator
+  ## Members
     * Single Area(System.Collections.Generic.List`1[SWFReader.Vec2])
     * Int64 AreaX2(System.Collections.Generic.List`1[SWFReader.Vec2])
     * Boolean InsideTriangle(Single, Single, Single, Single, Single, Single, Single, Single)
@@ -2300,6 +2427,7 @@
     * Void .ctor()
     * Single EPSILON
 # SWFReader.Vec2
+  ## Members
     * Int32 get_X()
     * Void set_X(Int32)
     * Int32 get_Y()
@@ -2316,6 +2444,7 @@
     * Int32 X
     * Int32 Y
 # .
+  ## Members
     * Int32 ()
     * Int32 ()
     * Void (Spine.AtlasPage, System.String)
@@ -2328,6 +2457,7 @@
     * Int32 Width
     * Int32 Height
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -2338,6 +2468,7 @@
     * Void .ctor()
     * System.Object TypeId
 # SmartAssembly.Attributes.DoNotCaptureAttribute
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -2348,6 +2479,7 @@
     * Void .ctor()
     * System.Object TypeId
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -2358,6 +2490,7 @@
     * Void .ctor()
     * System.Object TypeId
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -2368,6 +2501,7 @@
     * Void .ctor()
     * System.Object TypeId
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -2378,6 +2512,7 @@
     * Void .ctor()
     * System.Object TypeId
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -2388,6 +2523,7 @@
     * Void .ctor()
     * System.Object TypeId
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -2398,6 +2534,7 @@
     * Void .ctor()
     * System.Object TypeId
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -2408,6 +2545,7 @@
     * Void .ctor()
     * System.Object TypeId
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -2419,6 +2557,7 @@
     * Void .ctor(System.String)
     * System.Object TypeId
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -2429,6 +2568,7 @@
     * Void .ctor()
     * System.Object TypeId
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -2439,6 +2579,7 @@
     * Void .ctor()
     * System.Object TypeId
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -2449,6 +2590,7 @@
     * Void .ctor(System.String)
     * System.Object TypeId
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -2459,6 +2601,7 @@
     * Void .ctor(System.String)
     * System.Object TypeId
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -2469,6 +2612,7 @@
     * Void .ctor()
     * System.Object TypeId
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -2479,6 +2623,7 @@
     * Void .ctor()
     * System.Object TypeId
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -2489,6 +2634,7 @@
     * Void .ctor()
     * System.Object TypeId
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -2499,6 +2645,7 @@
     * Void .ctor()
     * System.Object TypeId
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -2509,6 +2656,7 @@
     * Void .ctor()
     * System.Object TypeId
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -2519,6 +2667,7 @@
     * Void .ctor()
     * System.Object TypeId
 # .
+  ## Members
     * Void Add(System.String)
     * Void ()
     * Boolean (System.String)
@@ -2543,6 +2692,7 @@
     * Boolean IsReadOnly
     * System.String Item [Int32]
 # .
+  ## Members
     * . ()
     * Void (.)
     * System.String ()
@@ -2562,6 +2712,7 @@
     * NDesk.Options.OptionSet OptionSet
     * . OptionValues
 # NDesk.Options.OptionValueType
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -2577,6 +2728,7 @@
     * NDesk.Options.OptionValueType Optional
     * NDesk.Options.OptionValueType Required
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * NDesk.Options.OptionValueType ()
@@ -2593,6 +2745,7 @@
     * NDesk.Options.OptionValueType OptionValueType
     * Int32 MaxValueCount
 # NDesk.Options.OptionException
+  ## Members
     * System.String ()
     * Void (System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
     * System.String get_Message()
@@ -2625,6 +2778,7 @@
     * System.String Source
     * Int32 HResult
 # .[,]
+  ## Members
     * Void Invoke(, )
     * System.IAsyncResult BeginInvoke(, , System.AsyncCallback, System.Object)
     * Void EndInvoke(System.IAsyncResult)
@@ -2642,6 +2796,7 @@
     * System.Reflection.MethodInfo Method
     * System.Object Target
 # NDesk.Options.OptionSet
+  ## Members
     * System.Converter`2[System.String,System.String] ()
     * NDesk.Options.OptionSet Add(.)
     * NDesk.Options.OptionSet (System.String, System.Action`1[System.String])
@@ -2682,6 +2837,7 @@
     * Int32 Count
     * . Item [Int32]
 # NDesk.Options.OptionSet+
+  ## Members
     * System.String ()
     * System.String ()
     * NDesk.Options.OptionValueType ()
@@ -2699,6 +2855,7 @@
     * NDesk.Options.OptionValueType OptionValueType
     * Int32 MaxValueCount
 # NDesk.Options.OptionSet+[]
+  ## Members
     * System.String ()
     * System.String ()
     * NDesk.Options.OptionValueType ()
@@ -2716,6 +2873,7 @@
     * NDesk.Options.OptionValueType OptionValueType
     * Int32 MaxValueCount
 # NDesk.Options.OptionSet+[,]
+  ## Members
     * System.String ()
     * System.String ()
     * NDesk.Options.OptionValueType ()
@@ -2733,6 +2891,7 @@
     * NDesk.Options.OptionValueType OptionValueType
     * Int32 MaxValueCount
 # NDesk.Options.OptionSet+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -2741,6 +2900,7 @@
     * <>c <>9
     * System.Converter`2[System.String,System.String] <>9__0_0
 # NDesk.Options.OptionSet+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -2748,6 +2908,7 @@
     * Void .ctor()
     * System.Action`1[System.String] 
 # NDesk.Options.OptionSet+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -2755,6 +2916,7 @@
     * Void .ctor()
     * .[System.String,System.String] 
 # .
+  ## Members
     * Byte[] ()
     * Void (Byte[])
     * Int32 ()
@@ -2772,12 +2934,14 @@
     * Int32 CRC
     * System.Collections.Generic.Dictionary`2[System.String,System.String] License
 # .
+  ## Members
     * System.Collections.Generic.List`1[System.Collections.Generic.List`1[System.String]] (System.String)
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Type GetType()
 # GMAssetCompiler.GMAudioGroup
+  ## Members
     * Int32 get_GroupIndex()
     * Void set_GroupIndex(Int32)
     * Int64 get_TargetMask()
@@ -2799,6 +2963,7 @@
     * System.String Name
     * System.Guid GUID
 # .
+  ## Members
     * System.String ()
     * System.Guid ()
     * Void Dispose()
@@ -2811,6 +2976,7 @@
     * System.Guid GUID
     * System.Collections.Generic.Dictionary`2[System.Guid,.] 
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * Void (System.String)
@@ -2822,6 +2988,7 @@
     * System.String ID
     * System.String Text
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * System.Collections.Generic.List`1[.] ()
@@ -2836,6 +3003,7 @@
     * System.String Region
     * System.Collections.Generic.List`1[.] Entries
 # .
+  ## Members
     * System.String ()
     * System.Collections.Generic.List`1[.] ()
     * Void (System.Collections.Generic.Dictionary`2[System.String,System.Object])
@@ -2853,6 +3021,7 @@
     * System.String Name
     * System.Guid GUID
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * System.String ()
@@ -2870,6 +3039,7 @@
     * System.String Name
     * System.Guid GUID
 # GMAssetCompiler.eShaderType
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -2889,6 +3059,7 @@
     * GMAssetCompiler.eShaderType 
     * GMAssetCompiler.eShaderType 
 # GMAssetCompiler.GMShader
+  ## Members
     * GMAssetCompiler.eShaderType get_ShaderType()
     * Void set_ShaderType(GMAssetCompiler.eShaderType)
     * Int32 get_CompiledIndex()
@@ -2997,6 +3168,7 @@
     * System.String ShaderCacheDirName
     * GMAssetCompiler.GMShader+eWhichShader
 # GMAssetCompiler.GMShader+eWhichShader
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -3024,6 +3196,7 @@
     * eWhichShader CG_PS3_Vertex
     * eWhichShader NumShaderTypes
 # GMAssetCompiler.GMShader+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -3033,6 +3206,7 @@
     * System.Diagnostics.DataReceivedEventHandler <>9__146_0
     * System.Diagnostics.DataReceivedEventHandler <>9__146_1
 # GMAssetCompiler.GMShader+<>c__DisplayClass147_0
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -3040,6 +3214,7 @@
     * Void .ctor()
     * System.String tempstring
 # GMAssetCompiler.GMTextureGroup
+  ## Members
     * Boolean get_Autocrop()
     * Int32 get_Border()
     * System.String get_GroupName()
@@ -3072,6 +3247,7 @@
     * System.String Name
     * System.Guid GUID
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -3091,6 +3267,7 @@
     * . 
     * . 
 # GMAssetCompiler.eAction
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -3111,6 +3288,7 @@
     * GMAssetCompiler.eAction 
     * GMAssetCompiler.eAction 
 # GMAssetCompiler.eExecuteTypes
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -3126,6 +3304,7 @@
     * GMAssetCompiler.eExecuteTypes 
     * GMAssetCompiler.eExecuteTypes 
 # GMAssetCompiler.eArgTypes
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -3155,6 +3334,7 @@
     * GMAssetCompiler.eArgTypes 
     * GMAssetCompiler.eArgTypes 
 # GMAssetCompiler.GMAction
+  ## Members
     * Int32 get_LibID()
     * Void set_LibID(Int32)
     * Int32 get_ID()
@@ -3215,6 +3395,7 @@
     * System.Guid GUID
     * System.Collections.Generic.List`1[System.Collections.Generic.KeyValuePair`2[System.String,GMAssetCompiler.GMAction]] ms_ActionWhoFixups
 # GMAssetCompiler.GMAssets
+  ## Members
     * Void (System.Collections.Generic.Dictionary`2[System.String,System.Object], System.Collections.IList, .)
     * Void (System.IO.Stream)
     * Void (System.IO.Stream)
@@ -3368,6 +3549,7 @@
     * GMAssetCompiler.GMAssets+
     * GMAssetCompiler.GMAssets+
 # GMAssetCompiler.GMAssets+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -3392,6 +3574,7 @@
     *  
     *  
 # GMAssetCompiler.GMAssets+
+  ## Members
     * System.Guid ()
     * Void (System.Guid)
     * System.Collections.Generic.Dictionary`2[System.String,System.Object] ()
@@ -3404,6 +3587,7 @@
     * System.Guid id
     * System.Collections.Generic.Dictionary`2[System.String,System.Object] resource
 # GMAssetCompiler.GMAssets+
+  ## Members
     *  ()
     * Void ()
     * System.String ()
@@ -3419,6 +3603,7 @@
     * System.String Name
     * System.String FileName
 # GMAssetCompiler.GMAssets+Factory`1[T]
+  ## Members
     * T Invoke(GMAssetCompiler.GMAssets, System.IO.Stream)
     * System.IAsyncResult BeginInvoke(GMAssetCompiler.GMAssets, System.IO.Stream, System.AsyncCallback, System.Object)
     * T EndInvoke(System.IAsyncResult)
@@ -3436,6 +3621,7 @@
     * System.Reflection.MethodInfo Method
     * System.Object Target
 # GMAssetCompiler.GMAssets+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -3455,6 +3641,7 @@
     * Factory`1 <>9__258_7
     * Factory`1 <>9__258_8
 # GMAssetCompiler.GMAssets+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -3462,6 +3649,7 @@
     * Void .ctor()
     * System.Guid 
 # GMAssetCompiler.GMAssets+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -3469,6 +3657,7 @@
     * Void .ctor()
     * System.Guid 
 # GMAssetCompiler.GMBackground
+  ## Members
     * Boolean ()
     * Boolean ()
     * Boolean ()
@@ -3538,6 +3727,7 @@
     * System.String Name
     * System.Guid GUID
 # GMAssetCompiler.GMBackground+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -3546,6 +3736,7 @@
     * <>c <>9
     * System.Converter`2[System.Object,System.UInt32] <>9__106_0
 # GMAssetCompiler.GMBitmap32
+  ## Members
     * Int32 ()
     * Int32 ()
     * Byte[] ()
@@ -3562,6 +3753,7 @@
     * Byte[] Data
     * System.Drawing.Bitmap Bitmap
 # GMAssetCompiler.GMDataFile
+  ## Members
     * System.String ()
     * System.String ()
     * Boolean ()
@@ -3594,6 +3786,7 @@
     * Boolean RemoveEnd
     * System.Collections.Generic.Dictionary`2[System.String,System.Int64] ConfigOptions
 # GMAssetCompiler.GMEvent
+  ## Members
     * Int32 get_CompiledIndex()
     * Void set_CompiledIndex(Int32)
     * System.Collections.Generic.List`1[GMAssetCompiler.GMAction] get_Actions()
@@ -3625,6 +3818,7 @@
     * System.String Name
     * System.Guid GUID
 # GMAssetCompiler.FrameworkInfo
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -3633,6 +3827,7 @@
     * Boolean 
     * System.String 
 # GMAssetCompiler.GMExtension
+  ## Members
     * System.String get_Folder()
     * System.Collections.Generic.IList`1[GMAssetCompiler.GMExtensionInclude] get_Includes()
     * System.Collections.Generic.IList`1[System.Byte[]] get_ExtensionDLL()
@@ -3729,6 +3924,7 @@
     * System.String iosPlistInject
     * System.String tvosPlistInject
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * System.Guid ()
@@ -3744,6 +3940,7 @@
     * System.String Name
     * System.Guid GUID
 # .
+  ## Members
     * System.String ()
     * Int32 ()
     * Int32 ()
@@ -3772,6 +3969,7 @@
     * System.Guid GUID
     * .+
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -3786,6 +3984,7 @@
     *  
     *  
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -3806,6 +4005,7 @@
     * . 
     * . 
 # GMAssetCompiler.GMExtensionInclude
+  ## Members
     * System.String ()
     * System.String ()
     * Void (System.String)
@@ -3844,6 +4044,7 @@
     * System.String Name
     * System.Guid GUID
 # .
+  ## Members
     * Int32 ()
     * Void (Int32)
     * Int32 ()
@@ -3856,6 +4057,7 @@
     * Int32 Other
     * Int32 Amount
 # GMAssetCompiler.GMGlyph
+  ## Members
     * Int32 ()
     * Void (Int32)
     * Int32 ()
@@ -3886,6 +4088,7 @@
     * System.Collections.Generic.List`1[.] Kerning
     * Int32 Char
 # GMAssetCompiler.GMFont
+  ## Members
     * System.String get_AssetName()
     * Int32 get_Size()
     * Boolean get_Bold()
@@ -3930,6 +4133,7 @@
     * System.Guid GUID
     * System.String ResourceTreePath
 # GMAssetCompiler.GMFont+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -3939,6 +4143,7 @@
     * System.Comparison`1[GMAssetCompiler.GMGlyph] <>9__57_0
     * System.Comparison`1[GMAssetCompiler.GMGlyph] <>9__60_0
 # .
+  ## Members
     * Int32 ()
     * Boolean ()
     * System.String ()
@@ -3970,6 +4175,7 @@
     * Boolean Modal
     * System.String Text
 # GMAssetCompiler.GMPhysicsShapeVertex
+  ## Members
     * Single ()
     * Void (Single)
     * Single ()
@@ -3988,6 +4194,7 @@
     * System.String Name
     * System.Guid GUID
 # GMAssetCompiler.SubTypeAndEvent
+  ## Members
     * Int32 ()
     * Void (Int32)
     * GMAssetCompiler.GMEvent ()
@@ -4000,6 +4207,7 @@
     * Int32 SubType
     * GMAssetCompiler.GMEvent Event
 # GMAssetCompiler.GMObject
+  ## Members
     * System.Guid get_ParentGUID()
     * Void set_ParentGUID(System.Guid)
     * Int32 get_SpriteIndex()
@@ -4084,6 +4292,7 @@
     * System.Guid GUID
     * System.String ResourceTreePath
 # GMAssetCompiler.GMObject+<>c__DisplayClass111_0
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -4091,6 +4300,7 @@
     * Void .ctor()
     * System.String ident
 # GMAssetCompiler.GMObject+<>c__DisplayClass127_0
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -4098,6 +4308,7 @@
     * Void .ctor()
     * System.String filename
 # GMAssetCompiler.GMObjectProperty
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -4109,6 +4320,7 @@
     * GMAssetCompiler.eObjectPropertyType type
     * Boolean multiselect
 # GMAssetCompiler.GMOverriddenProperty
+  ## Members
     * GMAssetCompiler.GMObjectProperty GetProperty(GMAssetCompiler.GMAssets)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -4118,6 +4330,7 @@
     * System.Guid propertyId
     * System.String value
 # GMAssetCompiler.eObjectPropertyType
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -4138,6 +4351,7 @@
     * GMAssetCompiler.eObjectPropertyType List
     * GMAssetCompiler.eObjectPropertyType Color
 # GMAssetCompiler.GMOptions
+  ## Members
     * System.String get_Win8AnalyticsId()
     * Void set_Win8AnalyticsId(System.String)
     * System.String get_VersionMajor()
@@ -4321,6 +4535,7 @@
     * System.Collections.Generic.Dictionary`2[System.String,System.String] ConfigDictionary
     * GMAssetCompiler.GMOptions+ConfigDeltaFile
 # GMAssetCompiler.GMOptions+ConfigDeltaFile
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -4329,6 +4544,7 @@
     * System.String resourceType
     * System.String filePath
 # GMAssetCompiler.GMOptions+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -4337,6 +4553,7 @@
     * <>c <>9
     * System.Predicate`1[System.String] <>9__306_0
 # GMAssetCompiler.GMPathPoint
+  ## Members
     * Double ()
     * Double ()
     * Double ()
@@ -4355,6 +4572,7 @@
     * System.String Name
     * System.Guid GUID
 # GMAssetCompiler.GMPath
+  ## Members
     * Int32 get_Kind()
     * Boolean get_Closed()
     * Int32 get_Precision()
@@ -4383,6 +4601,7 @@
     * System.String Name
     * System.Guid GUID
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -4397,6 +4616,7 @@
     * . 
     * . 
 # GMAssetCompiler.GMRoomSettings
+  ## Members
     * Void ReadFromJSON(System.Collections.Generic.Dictionary`2[System.String,System.Object])
     * System.String ()
     * System.Guid ()
@@ -4413,6 +4633,7 @@
     * Int32 Speed
     * Boolean Persistent
 # GMAssetCompiler.GMRoomViewSettings
+  ## Members
     * Void ReadFromJSON(System.Collections.Generic.Dictionary`2[System.String,System.Object])
     * System.String ()
     * System.Guid ()
@@ -4428,6 +4649,7 @@
     * Boolean ViewClearScreen
     * Boolean ClearDisplayBuffer
 # GMAssetCompiler.GMRoomPhysicsSettings
+  ## Members
     * Void ReadFromJSON(System.Collections.Generic.Dictionary`2[System.String,System.Object])
     * System.String ()
     * System.Guid ()
@@ -4444,6 +4666,7 @@
     * Single PhysicsWorldGravityY
     * Single PhysicsWorldPixToMeters
 # GMAssetCompiler.GMBack
+  ## Members
     * Boolean ()
     * Boolean ()
     * Int32 ()
@@ -4491,6 +4714,7 @@
     * Double FrameSpeed
     * Boolean SpriteBackgrounds
 # GMAssetCompiler.GMView
+  ## Members
     * Boolean ()
     * Int32 ()
     * Int32 ()
@@ -4529,6 +4753,7 @@
     * Int32 VSpeed
     * Int32 Index
 # GMAssetCompiler.GMTile
+  ## Members
     * Int32 ()
     * Int32 ()
     * Int32 ()
@@ -4566,6 +4791,7 @@
     * Double Alpha
     * Boolean Ignore
 # GMAssetCompiler.GMSpriteGraphic
+  ## Members
     * System.String ()
     * Int32 ()
     * Int32 ()
@@ -4600,6 +4826,7 @@
     * Single Rotation
     * Boolean Ignore
 # GMAssetCompiler.GMInstance
+  ## Members
     * System.Guid ()
     * Boolean ()
     * Int32 ()
@@ -4654,6 +4881,7 @@
     * System.Guid GUID
     * System.Collections.Generic.Dictionary`2[System.Guid,GMAssetCompiler.GMInstance] 
 # GMAssetCompiler.GMInstance+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -4661,6 +4889,7 @@
     * Void .ctor()
     * GMAssetCompiler.GMOverriddenProperty 
 # GMAssetCompiler.GMInstance+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -4668,6 +4897,7 @@
     * Void .ctor()
     * GMAssetCompiler.GMInstance 
 # GMAssetCompiler.GMRoomMakerSettings
+  ## Members
     * Boolean ()
     * Void (Boolean)
     * Int32 ()
@@ -4722,6 +4952,7 @@
     * System.String Name
     * System.Guid GUID
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -4740,6 +4971,7 @@
     * . 
     * . 
 # GMAssetCompiler.GMLayerBase
+  ## Members
     * GMAssetCompiler.GMRoom ()
     * Void (GMAssetCompiler.GMRoom)
     * System.Collections.Generic.List`1[GMAssetCompiler.GMLayerBase] ()
@@ -4782,6 +5014,7 @@
     * System.String Name
     * System.Guid GUID
 # GMAssetCompiler.GMFolderLayer
+  ## Members
     * GMAssetCompiler.GMRoom ()
     * Void (GMAssetCompiler.GMRoom)
     * System.Collections.Generic.List`1[GMAssetCompiler.GMLayerBase] ()
@@ -4824,6 +5057,7 @@
     * System.String Name
     * System.Guid GUID
 # GMAssetCompiler.GMBackgroundLayer
+  ## Members
     * Void ReadFromJSON(System.Collections.Generic.Dictionary`2[System.String,System.Object], GMAssetCompiler.GMAssets)
     * GMAssetCompiler.GMRoom ()
     * Void (GMAssetCompiler.GMRoom)
@@ -4867,6 +5101,7 @@
     * System.Guid GUID
     * GMAssetCompiler.GMBack Background
 # GMAssetCompiler.GMInstanceLayer
+  ## Members
     * Void ReadFromJSON(System.Collections.Generic.Dictionary`2[System.String,System.Object], GMAssetCompiler.GMAssets, GMAssetCompiler.GMRoom)
     * Void Dispose()
     * GMAssetCompiler.GMRoom ()
@@ -4912,6 +5147,7 @@
     * System.Collections.Generic.List`1[System.Int32] InstanceIDs
     * System.Collections.Generic.List`1[GMAssetCompiler.GMInstance] Instances
 # GMAssetCompiler.GMInstanceLayer+<>c__DisplayClass3_0
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -4919,6 +5155,7 @@
     * Void .ctor()
     * System.Collections.Generic.List`1[GMAssetCompiler.GMInstance] instancesStore
 # GMAssetCompiler.GMAssetLayer
+  ## Members
     * Void ReadFromJSON(System.Collections.Generic.Dictionary`2[System.String,System.Object], GMAssetCompiler.GMAssets)
     * GMAssetCompiler.GMRoom ()
     * Void (GMAssetCompiler.GMRoom)
@@ -4963,6 +5200,7 @@
     * System.Collections.Generic.List`1[GMAssetCompiler.GMTile] Tiles
     * System.Collections.Generic.List`1[GMAssetCompiler.GMSpriteGraphic] Sprites
 # GMAssetCompiler.GMTileLayer
+  ## Members
     * UInt32 TranslateTiledata(UInt32)
     * Void ReadFromJSON(System.Collections.Generic.Dictionary`2[System.String,System.Object], GMAssetCompiler.GMAssets)
     * GMAssetCompiler.GMRoom ()
@@ -5031,6 +5269,7 @@
     * UInt32 RnTileBitMask_TileIndex
     * UInt32 RnTileBitMask_ColourIndex
 # GMAssetCompiler.GMRoom
+  ## Members
     * Boolean get_InheritCode()
     * Void set_InheritCode(Boolean)
     * System.Guid get_ParentGUID()
@@ -5150,6 +5389,7 @@
     * Int32 CurrentTileID
     * Int32 CurrentLayerID
 # GMAssetCompiler.GMRoom+<>c__DisplayClass150_0
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -5157,6 +5397,7 @@
     * Void .ctor()
     * System.Guid id
 # GMAssetCompiler.GMRoom+<>c__DisplayClass151_0
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -5164,6 +5405,7 @@
     * Void .ctor()
     * Int32 id
 # GMAssetCompiler.eScriptKind
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5178,6 +5420,7 @@
     * GMAssetCompiler.eScriptKind 
     * GMAssetCompiler.eScriptKind 
 # GMAssetCompiler.GMScript
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -5214,6 +5457,7 @@
     * System.Guid GUID
     * System.String 
 # GMAssetCompiler.GMSound
+  ## Members
     * Int32 get_Kind()
     * Void set_Kind(Int32)
     * System.String get_Extension()
@@ -5287,6 +5531,7 @@
     * Int32 kOgg_Memory
     * Int32 kOgg_Decompress
 # GMAssetCompiler.GMSound+<>c__DisplayClass107_0
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -5294,6 +5539,7 @@
     * Void .ctor()
     * System.String output
 # GMAssetCompiler.GMSound+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -5303,6 +5549,7 @@
     * System.Diagnostics.DataReceivedEventHandler <>9__108_0
     * System.Diagnostics.DataReceivedEventHandler <>9__108_1
 # GMAssetCompiler.eGMSpriteType
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5318,6 +5565,7 @@
     * GMAssetCompiler.eGMSpriteType 
     * GMAssetCompiler.eGMSpriteType 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5336,6 +5584,7 @@
     * . 
     * . 
 # .
+  ## Members
     * UInt32 ()
     * UInt32 ()
     * UInt32 ()
@@ -5355,6 +5604,7 @@
     * UInt32 AtlasTextureWidth
     * UInt32 AtlasTextureHeight
 # GMAssetCompiler.GMSprite
+  ## Members
     * GMAssetCompiler.eGMSpriteType get_SpriteType()
     * Int32 get_Width()
     * Int32 get_Height()
@@ -5472,6 +5722,7 @@
     * Single SwfPrecisionMaxValue
     * GMAssetCompiler.GMSprite+CollisionType
 # GMAssetCompiler.GMSprite+CollisionType
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5487,6 +5738,7 @@
     * CollisionType PRECISE
     * CollisionType ROTATED_RECT
 # GMAssetCompiler.GMMoment
+  ## Members
     * Int32 get_Moment()
     * GMAssetCompiler.GMEvent get_Event()
     * GMAssetCompiler.SubTypeAndEvent get_Entry()
@@ -5506,6 +5758,7 @@
     * System.String Name
     * System.Guid GUID
 # GMAssetCompiler.GMTimeLine
+  ## Members
     * System.Collections.Generic.IList`1[GMAssetCompiler.GMMoment] get_Moments()
     * System.Collections.Generic.IList`1[GMAssetCompiler.SubTypeAndEvent] get_Entries()
     * System.String get_SourceFileName()
@@ -5530,6 +5783,7 @@
     * System.Guid GUID
     * System.String ResourceTreePath
 # GMAssetCompiler.GMTimeLine+<>c__DisplayClass17_0
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -5537,6 +5791,7 @@
     * Void .ctor()
     * System.String filename
 # GMAssetCompiler.GMTrackViewFrameClock
+  ## Members
     * Double get_FrameRate()
     * Void set_FrameRate(Double)
     * Void SetFromJson(System.Collections.Generic.Dictionary`2[System.String,System.Object])
@@ -5552,6 +5807,7 @@
     * System.String Name
     * System.Guid GUID
 # GMAssetCompiler.GMTrackView
+  ## Members
     * System.String get_SourceFileName()
     * Void set_SourceFileName(System.String)
     * Int32 get_TrackCount()
@@ -5572,6 +5828,7 @@
     * System.String ResourceTreePath
     * GMAssetCompiler.GMTrackViewFrameClock Clock
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * System.String ()
@@ -5593,6 +5850,7 @@
     * Int32 CompiledIndex
     * System.String SourceFileName
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -5603,6 +5861,7 @@
     * Void .ctor()
     * System.Object TypeId
 # .
+  ## Members
     * System.Type ()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -5615,6 +5874,7 @@
     * System.Type ArrayType
     * System.Object TypeId
 # .
+  ## Members
     * System.Type ()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -5627,6 +5887,7 @@
     * System.Type ArrayType
     * System.Object TypeId
 # .
+  ## Members
     * System.Type ()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -5639,6 +5900,7 @@
     * System.Type ArrayType
     * System.Object TypeId
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5649,6 +5911,7 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5669,6 +5932,7 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5679,6 +5943,7 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5689,6 +5954,7 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5697,6 +5963,7 @@
     * Double 
     * Double 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5704,6 +5971,7 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5718,6 +5986,7 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5729,6 +5998,7 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5748,6 +6018,7 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5755,18 +6026,21 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5774,6 +6048,7 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5781,6 +6056,7 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5795,12 +6071,14 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5808,6 +6086,7 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5827,30 +6106,35 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5866,6 +6150,7 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5885,6 +6170,7 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5895,6 +6181,7 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5909,6 +6196,7 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5924,12 +6212,14 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5971,6 +6261,7 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5978,6 +6269,7 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -5991,6 +6283,7 @@
     * Double 
     * Int32 
 # .
+  ## Members
     * System.Collections.IEnumerable (System.String[])
     * Boolean (System.String, System.String, System.String ByRef)
     * Boolean (System.String, System.String, System.String ByRef)
@@ -6014,6 +6307,7 @@
     * Void .ctor()
     * Byte[] 
 # .+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -6021,6 +6315,7 @@
     * Void .ctor(Int32)
     * System.String[] 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -6038,6 +6333,7 @@
     * . 
     * . 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -6053,6 +6349,7 @@
     * . 
     * . 
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * System.String ()
@@ -6084,6 +6381,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.Collections.Generic.Dictionary`2[System.String,System.String] ()
@@ -6096,6 +6394,7 @@
     * System.String Name
     * System.Collections.Generic.Dictionary`2[System.String,System.String] Entries
 # .
+  ## Members
     * System.Collections.Generic.Dictionary`2[System.String,.] ()
     * Void (System.Collections.Generic.Dictionary`2[System.String,.])
     * Void ()
@@ -6110,6 +6409,7 @@
     * Void .ctor(System.String)
     * System.Collections.Generic.Dictionary`2[System.String,.] Sections
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -6179,6 +6479,7 @@
     * . 
     * . 
 # .
+  ## Members
     * System.String ()
     * Double ()
     * . ()
@@ -6205,6 +6506,7 @@
     * System.String Text
     * Boolean CaseSensitive
 # .
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -6219,6 +6521,7 @@
     * Double 
     * Boolean 
 # .
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -6229,6 +6532,7 @@
     * System.Collections.Generic.List`1[.] 
     * Boolean 
 # .
+  ## Members
     * Boolean ()
     * Void (Boolean)
     * Boolean ()
@@ -6265,6 +6569,7 @@
     * System.Collections.Generic.Dictionary`2[System.String,.] 
     * System.Collections.Generic.Dictionary`2[System.String,System.String] 
 # .
+  ## Members
     * GMAssetCompiler.eVM_Type ()
     * Void (GMAssetCompiler.eVM_Type)
     * . ()
@@ -6298,6 +6603,7 @@
     * System.Text.StringBuilder 
     * System.Text.StringBuilder 
 # .
+  ## Members
     * Int32 ()
     * Void (Int32)
     * Int32 ()
@@ -6349,6 +6655,7 @@
     * Boolean BuiltIn
     * System.String BuiltInName
 # .
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -6364,6 +6671,7 @@
     * System.String Expression
     * Boolean VarArgsRef
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -6379,6 +6687,7 @@
     * . 
     * . 
 # .
+  ## Members
     * . ()
     * Void (.)
     * . ()
@@ -6398,6 +6707,7 @@
     * . Load
     * System.String String
 # .
+  ## Members
     * System.String ()
     * Void (System.String)
     * GMAssetCompiler.eVM_Type ()
@@ -6419,6 +6729,7 @@
     * Boolean Loaded
     * Int32 StoreCount
 # .
+  ## Members
     * System.Collections.Generic.List`1[.] ()
     * Void (System.Collections.Generic.List`1[.])
     * System.Collections.Generic.List`1[.] ()
@@ -6445,6 +6756,7 @@
     * System.Collections.Generic.Dictionary`2[System.String,.] UnDeclaredVars
     * Int32 
 # .
+  ## Members
     * System.String (GMAssetCompiler.eVM_Type)
     * System.String (GMAssetCompiler.eVM_Type)
     * System.String (.)
@@ -6597,6 +6909,7 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * . ()
     * Void (.)
     * . ()
@@ -6627,12 +6940,14 @@
     * Int32 
     * System.Collections.Generic.Stack`1[System.Char] 
 # .
+  ## Members
     * . ()
     * Void (.)
     * Void (GMAssetCompiler.GMAssets, .)
     * Void (GMAssetCompiler.GMAssets, .)
     * . Code
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -6650,6 +6965,7 @@
     * . 
     * . 
 # .
+  ## Members
     * Boolean ()
     * Boolean ()
     * Boolean ()
@@ -6713,6 +7029,7 @@
     * Int32 ReadTimeout
     * Int32 WriteTimeout
 # .
+  ## Members
     * Void (System.String, GMAssetCompiler.GMLToken)
     * Void (GMAssetCompiler.GMAssets, ., System.IO.TextWriter)
     * System.String ToString()
@@ -6723,6 +7040,7 @@
     * System.String 
     * System.Collections.Generic.Dictionary`2[System.String,System.String] 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -6767,6 +7085,7 @@
     * . 
     * . 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -6823,6 +7142,7 @@
     * . 
     * . 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -6842,6 +7162,7 @@
     * . 
     * . 
 # GMAssetCompiler.eVM_Type
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -6866,6 +7187,7 @@
     * GMAssetCompiler.eVM_Type eVMT_Undefined
     * GMAssetCompiler.eVM_Type eVMT_UnsignedInt
 # .
+  ## Members
     * System.IO.MemoryStream ()
     * Void (System.IO.MemoryStream)
     * Int32 (Int32)
@@ -6888,6 +7210,7 @@
     * Void .ctor()
     * System.IO.MemoryStream Buffer
 # .
+  ## Members
     * . ()
     * Void (.)
     * System.String ()
@@ -6914,6 +7237,7 @@
     * Boolean Marked
     * Int32 BreakCount
 # GMAssetCompiler.GML2VM
+  ## Members
     * Int64 ()
     * Void (Int64)
     * System.Collections.Generic.Stack`1[System.Boolean] ()
@@ -6985,6 +7309,7 @@
     * GMAssetCompiler.GML2VM+
     * GMAssetCompiler.GML2VM+
 # GMAssetCompiler.GML2VM+EVariableType
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -7001,6 +7326,7 @@
     * EVariableType ELOCAL
     * EVariableType EUNKNOWN
 # GMAssetCompiler.GML2VM+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -7009,6 +7335,7 @@
     * Int64 
     * EVariableType 
 # GMAssetCompiler.GML2VM+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -7018,6 +7345,7 @@
     * EVariableType 
     * Int32 
 # GMAssetCompiler.GML2VM+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7025,6 +7353,7 @@
     * Void .ctor()
     * System.Collections.Generic.List`1[System.String] 
 # GMAssetCompiler.GML2VM+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7033,6 +7362,7 @@
     * . 
     *  
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -7052,6 +7382,7 @@
     * . 
     * . 
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * System.String ToString()
@@ -7062,6 +7393,7 @@
     * System.String Decorated
     * System.String Undecorated
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * Int64 ()
@@ -7089,6 +7421,7 @@
     * Int32 NumLocals
     * Int32 Flags
 # .
+  ## Members
     * . ()
     * Void (.)
     * System.String ()
@@ -7154,6 +7487,7 @@
     * System.Collections.Generic.Dictionary`2[System.String,System.Collections.Generic.List`1[System.Collections.Generic.KeyValuePair`2[.,GMAssetCompiler.GMLToken]]] 
     * System.Collections.Generic.Dictionary`2[System.String,System.Collections.Generic.List`1[System.Collections.Generic.KeyValuePair`2[.,GMAssetCompiler.GMLToken]]] 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -7178,6 +7512,7 @@
     * . 
     * . 
 # GMAssetCompiler.eToken
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -7282,6 +7617,7 @@
     * GMAssetCompiler.eToken eDoubleArrayOpen
     * GMAssetCompiler.eToken eBaseArrayOpen
 # GMAssetCompiler.eKind
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -7299,6 +7635,7 @@
     * GMAssetCompiler.eKind eConstant
     * GMAssetCompiler.eKind eInt64
 # .
+  ## Members
     * GMAssetCompiler.eKind ()
     * Void (GMAssetCompiler.eKind)
     * Boolean ()
@@ -7325,6 +7662,7 @@
     * System.String ValueS
     * Int64 ValueL
 # GMAssetCompiler.GMLToken
+  ## Members
     * GMAssetCompiler.eToken ()
     * Void (GMAssetCompiler.eToken)
     * Int32 ()
@@ -7370,6 +7708,7 @@
     * System.Collections.Generic.Stack`1[System.String] 
     * System.Collections.Generic.Stack`1[System.String] 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -7385,6 +7724,7 @@
     * . 
     * . 
 # .
+  ## Members
     * . ()
     * Void (.)
     * System.String ()
@@ -7403,6 +7743,7 @@
     * System.Collections.Generic.List`1[System.Object] Params
     * GMAssetCompiler.GMLToken Token
 # .
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -7439,6 +7780,7 @@
     * Int32 Count
     * . Classification
 # .
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -7466,6 +7808,7 @@
     * Boolean Set
     * Boolean Pro
 # .
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7475,6 +7818,7 @@
     * Int32 
     * Int32 
 # GMAssetCompiler.GMLCompile
+  ## Members
     * Boolean (Int32)
     * Boolean (Int32)
     * Boolean (Int32)
@@ -7550,6 +7894,7 @@
     * Int32 
     * Int32 
 # GMAssetCompiler.GMLCompile+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7558,6 +7903,7 @@
     * <>c <>9
     * System.Predicate`1[GMAssetCompiler.GMLToken] <>9__228_0
 # GMAssetCompiler.HTML5Saver
+  ## Members
     * GMAssetCompiler.GMAssets ()
     * System.String (System.String)
     * Void (GMAssetCompiler.GMAssets, System.String)
@@ -7578,6 +7924,7 @@
     * System.Collections.Generic.Dictionary`2[System.String,.] 
     * System.Collections.Generic.List`1[System.String] 
 # GMAssetCompiler.HTML5Saver+WriteDelegateKVP`1[T]
+  ## Members
     * Void Invoke(System.Collections.Generic.KeyValuePair`2[System.String,T], System.IO.TextWriter, Int32)
     * System.IAsyncResult BeginInvoke(System.Collections.Generic.KeyValuePair`2[System.String,T], System.IO.TextWriter, Int32, System.AsyncCallback, System.Object)
     * Void EndInvoke(System.IAsyncResult)
@@ -7595,6 +7942,7 @@
     * System.Reflection.MethodInfo Method
     * System.Object Target
 # GMAssetCompiler.HTML5Saver+[]
+  ## Members
     * Void Invoke(, System.IO.TextWriter, Int32)
     * System.IAsyncResult BeginInvoke(, System.IO.TextWriter, Int32, System.AsyncCallback, System.Object)
     * Void EndInvoke(System.IAsyncResult)
@@ -7612,6 +7960,7 @@
     * System.Reflection.MethodInfo Method
     * System.Object Target
 # GMAssetCompiler.HTML5Saver+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -7643,6 +7992,7 @@
     *  
     *  
 # GMAssetCompiler.HTML5Saver+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7650,6 +8000,7 @@
     * Void .ctor()
     * System.IO.TextWriter 
 # GMAssetCompiler.HTML5Saver+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7657,6 +8008,7 @@
     * Void .ctor()
     * System.IO.TextWriter 
 # GMAssetCompiler.HTML5Saver+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7670,6 +8022,7 @@
     * WriteDelegateKVP`1 <>9__83_0
     * System.Func`2[GMAssetCompiler.TexturePageEntry,System.Int32] <>9__85_0
 # GMAssetCompiler.HTML5Saver+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7677,6 +8030,7 @@
     * Void .ctor()
     * System.Collections.Generic.IList`1[System.Collections.Generic.KeyValuePair`2[System.String,GMAssetCompiler.GMRoom]] 
 # GMAssetCompiler.HTML5Saver+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7684,6 +8038,7 @@
     * Void .ctor()
     * System.IO.TextWriter 
 # GMAssetCompiler.HTML5Saver+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7691,6 +8046,7 @@
     * Void .ctor()
     * System.IO.TextWriter 
 # GMAssetCompiler.HTML5Saver+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7699,6 +8055,7 @@
     * System.IO.TextWriter 
     * System.Collections.Generic.List`1[System.String] 
 # GMAssetCompiler.HTML5Saver+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7706,6 +8063,7 @@
     * Void .ctor()
     * System.IO.TextWriter 
 # GMAssetCompiler.HTML5Saver+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7713,6 +8071,7 @@
     * Void .ctor()
     * System.IO.TextWriter 
 # GMAssetCompiler.HTML5Saver+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7720,6 +8079,7 @@
     * Void .ctor()
     * System.IO.TextWriter 
 # GMAssetCompiler.HTML5Saver+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7727,6 +8087,7 @@
     * Void .ctor()
     * System.String 
 # GMAssetCompiler.HTML5Saver+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7734,6 +8095,7 @@
     * Void .ctor()
     * System.IO.TextWriter 
 # GMAssetCompiler.HTML5Saver+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7741,6 +8103,7 @@
     * Void .ctor()
     * System.IO.TextWriter 
 # GMAssetCompiler.HTML5Saver+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7749,6 +8112,7 @@
     * Int32 
     *  
 # GMAssetCompiler.HTML5Saver+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7758,6 +8122,7 @@
     * Int32 
     * System.IO.TextWriter 
 # GMAssetCompiler.HTML5Saver+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7766,6 +8131,7 @@
     * Int32 
     *  
 # GMAssetCompiler.HTML5Saver+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7774,6 +8140,7 @@
     * Int32 
     *  
 # GMAssetCompiler.HTML5Saver+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7782,6 +8149,7 @@
     * System.IO.TextWriter 
     * Boolean 
 # GMAssetCompiler.HTML5Saver+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7789,6 +8157,7 @@
     * Void .ctor()
     * System.IO.TextWriter 
 # .[]
+  ## Members
     * Void Invoke(, System.IO.Stream, GMAssetCompiler.IFF)
     * System.IAsyncResult BeginInvoke(, System.IO.Stream, GMAssetCompiler.IFF, System.AsyncCallback, System.Object)
     * Void EndInvoke(System.IAsyncResult)
@@ -7806,6 +8175,7 @@
     * System.Reflection.MethodInfo Method
     * System.Object Target
 # GMAssetCompiler.IFFChunkType
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -7823,6 +8193,7 @@
     * GMAssetCompiler.IFFChunkType 
     * GMAssetCompiler.IFFChunkType 
 # GMAssetCompiler.IIFFChunkHandler
+  ## Members
     * GMAssetCompiler.IFFChunkType ()
     * Int32 ()
     * Int32 ()
@@ -7833,6 +8204,7 @@
     * Int32 Offset
     * System.String Name
 # .[]
+  ## Members
     * GMAssetCompiler.IFFChunkType ()
     * Int32 ()
     * Int32 ()
@@ -7847,6 +8219,7 @@
     * Int32 Offset
     * System.String Name
 # .
+  ## Members
     * Int64 ()
     * System.Object ()
     * System.String ToString()
@@ -7857,6 +8230,7 @@
     * Int64 Site
     * System.Object Target
 # .
+  ## Members
     * System.String ()
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -7865,6 +8239,7 @@
     * Void .ctor(System.String)
     * System.String String
 # GMAssetCompiler.IFF
+  ## Members
     * System.Collections.Generic.List`1[.] ()
     * System.Collections.Generic.Dictionary`2[System.String,System.Int32] ()
     * System.Collections.Generic.List`1[.] ()
@@ -7892,6 +8267,7 @@
     * System.Collections.Generic.List`1[GMAssetCompiler.IIFFChunkHandler] 
     * System.Collections.Generic.Dictionary`2[System.Object,System.Collections.Generic.List`1[.]] 
 # GMAssetCompiler.IFF+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -7900,6 +8276,7 @@
     * <>c <>9
     * System.Func`2[GMAssetCompiler.IIFFChunkHandler,GMAssetCompiler.IFFChunkType] <>9__27_0
 # .
+  ## Members
     * System.String ()
     * Void (System.String)
     * Void (GMAssetCompiler.GMAssets, System.String)
@@ -7926,6 +8303,7 @@
     * Void .ctor()
     * System.String CPPDir
 # GMAssetCompiler.WADSaver`1[TCode]
+  ## Members
     * Void (GMAssetCompiler.GMExtension, GMAssetCompiler.GMExtensionInclude)
     * Boolean (GMAssetCompiler.GMAssets)
     * Void (System.Collections.Generic.IList`1[TCode], System.IO.Stream, GMAssetCompiler.IFF)
@@ -7957,6 +8335,7 @@
     * GMAssetCompiler.WADSaver`1+WriteDelegateKVP`1[TCode,T]
     * GMAssetCompiler.WADSaver`1+WriteDelegate`1[TCode,T]
 # GMAssetCompiler.WADSaver`1+_EtxPopulationSample[TCode]
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -7972,6 +8351,7 @@
     * _EtxPopulationSample SystemDefault
     * _EtxPopulationSample Undefined
 # GMAssetCompiler.WADSaver`1+_EtxProviderLatency[TCode]
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -7988,6 +8368,7 @@
     * _EtxProviderLatency RealTime
     * _EtxProviderLatency MaxValue
 # GMAssetCompiler.WADSaver`1+_EtxEventLatency[TCode]
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -8005,6 +8386,7 @@
     * _EtxEventLatency ProviderDefault
     * _EtxEventLatency MaxValue
 # GMAssetCompiler.WADSaver`1+_EtxProviderPriority[TCode]
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -8021,6 +8403,7 @@
     * _EtxProviderPriority Critical
     * _EtxProviderPriority MaxValue
 # GMAssetCompiler.WADSaver`1+_EtxEventPriority[TCode]
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -8038,6 +8421,7 @@
     * _EtxEventPriority ProviderDefault
     * _EtxEventPriority MaxValue
 # GMAssetCompiler.WADSaver`1+_EtxProviderEnabledState[TCode]
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -8056,6 +8440,7 @@
     * _EtxProviderEnabledState ForceOn
     * _EtxProviderEnabledState MaxValue
 # GMAssetCompiler.WADSaver`1+_EtxEventEnabledState[TCode]
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -8073,6 +8458,7 @@
     * _EtxEventEnabledState On
     * _EtxEventEnabledState MaxValue
 # GMAssetCompiler.WADSaver`1+_EtxFieldType[TCode]
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -8106,6 +8492,7 @@
     * _EtxFieldType IPv6
     * _EtxFieldType MaxValue
 # GMAssetCompiler.WADSaver`1+WriteDelegateKVP`1[TCode,T]
+  ## Members
     * Void Invoke(System.Collections.Generic.KeyValuePair`2[System.String,T], System.IO.Stream, GMAssetCompiler.IFF, Int64)
     * System.IAsyncResult BeginInvoke(System.Collections.Generic.KeyValuePair`2[System.String,T], System.IO.Stream, GMAssetCompiler.IFF, Int64, System.AsyncCallback, System.Object)
     * Void EndInvoke(System.IAsyncResult)
@@ -8123,6 +8510,7 @@
     * System.Reflection.MethodInfo Method
     * System.Object Target
 # GMAssetCompiler.WADSaver`1+WriteDelegate`1[TCode,T]
+  ## Members
     * Void Invoke(T, System.IO.Stream, GMAssetCompiler.IFF, Int64)
     * System.IAsyncResult BeginInvoke(T, System.IO.Stream, GMAssetCompiler.IFF, Int64, System.AsyncCallback, System.Object)
     * Void EndInvoke(System.IAsyncResult)
@@ -8140,6 +8528,7 @@
     * System.Reflection.MethodInfo Method
     * System.Object Target
 # GMAssetCompiler.WADSaver`1+<>c[TCode]
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -8160,6 +8549,7 @@
     * System.Func`2[GMAssetCompiler.TexturePageEntry,System.Int32] <>9__106_0
     * WriteDelegate`1 <>9__107_0
 # GMAssetCompiler.WADSaver`1+[]
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -8169,6 +8559,7 @@
     * System.Collections.Generic.SortedList`2[System.String,GMAssetCompiler.GMSound][] 
     * GMAssetCompiler.WADSaver`1[] 
 # GMAssetCompiler.WADSaver`1+[]
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -8177,6 +8568,7 @@
     * System.Collections.Generic.List`1[System.Collections.Generic.List`1[GMAssetCompiler.TexturePageEntry]] 
     *  
 # GMAssetCompiler.WADSaver`1+[]
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -8186,6 +8578,7 @@
     * System.IO.Stream 
     * GMAssetCompiler.WADSaver`1[] 
 # GMAssetCompiler.WADSaver`1+[]
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -8193,6 +8586,7 @@
     * Void .ctor()
     * Int32 
 # GMAssetCompiler.WADSaver`1+[]
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -8200,6 +8594,7 @@
     * Void .ctor()
     * System.IO.Stream 
 # GMAssetCompiler.WADSaver`1+[]
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -8208,6 +8603,7 @@
     * Double 
     * Double 
 # GMAssetCompiler.WADSaver`1+[]
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -8216,6 +8612,7 @@
     * GMAssetCompiler.GMEvent 
     * GMAssetCompiler.WADSaver`1[] 
 # GMAssetCompiler.WADSaver`1+[]
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -8224,6 +8621,7 @@
     * System.IO.Stream 
     * GMAssetCompiler.WADSaver`1[] 
 # GMAssetCompiler.WADSaver`1+[]
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -8232,6 +8630,7 @@
     * GMAssetCompiler.IFF 
     *  
 # GMAssetCompiler.WADSaver`1+[]
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -8239,6 +8638,7 @@
     * Void .ctor()
     * System.Collections.Generic.List`1[System.Int32] 
 # GMAssetCompiler.WADSaver`1+[]
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -8246,6 +8646,7 @@
     * Void .ctor()
     * Int32 
 # GMAssetCompiler.WADSaver`1+[]
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -8254,6 +8655,7 @@
     * System.IO.Stream 
     * Int32 
 # .
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -8280,6 +8682,7 @@
     * System.String CPPName
     * Boolean VarArgs
 # .
+  ## Members
     * System.Collections.Generic.Stack`1[GMAssetCompiler.eVM_Type] ()
     * System.Collections.Generic.Dictionary`2[System.String,.] ()
     * Void (GMAssetCompiler.GMLToken)
@@ -8291,6 +8694,7 @@
     * System.Collections.Generic.Stack`1[GMAssetCompiler.eVM_Type] TypeStack
     * System.Collections.Generic.Dictionary`2[System.String,.] GMLFunctions
 # .
+  ## Members
     * Int32 ()
     * Void (Int32)
     * Int32 ()
@@ -8303,6 +8707,7 @@
     * Int32 Scaled
     * Int32 MipsToGenerate
 # .
+  ## Members
     * Int32 ()
     * Int32 ()
     * Byte[] ()
@@ -8318,6 +8723,7 @@
     * Byte[] Pixels
     * Byte[] 
 # GMAssetCompiler.UTF8Marshaler
+  ## Members
     * IntPtr MarshalManagedToNative(System.Object)
     * System.Object MarshalNativeToManaged(IntPtr)
     * Void CleanUpNativeData(IntPtr)
@@ -8330,6 +8736,7 @@
     * System.Type GetType()
     * Void .ctor()
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -8338,12 +8745,14 @@
     * Int32 
     * Int64 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -8351,6 +8760,7 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -8367,6 +8777,7 @@
     * . 
     * . 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -8383,6 +8794,7 @@
     * IntPtr 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -8407,6 +8819,7 @@
     * Int32 
     * IntPtr 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -8424,6 +8837,7 @@
     * . 
     * . 
 # .
+  ## Members
     * Void ()
     * Void ()
     * IntPtr (System.String, System.String, System.String)
@@ -8435,6 +8849,7 @@
     * System.Type GetType()
     * Void .ctor()
 # .
+  ## Members
     * IntPtr (System.String, Int32, Int32, IntPtr, Int32, Int32, IntPtr)
     * IntPtr (IntPtr, IntPtr, Int32, Int32, Int32, System.String)
     * Boolean (IntPtr, Int32)
@@ -8452,6 +8867,7 @@
     * Int32 
     * Int32 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -8461,6 +8877,7 @@
     * GMAssetCompiler.GMExtensionInclude 
     * . 
 # GMAssetCompiler.Program
+  ## Members
     * Byte[] (Byte[])
     * Byte[] (System.String[])
     * Boolean (Byte[], Byte[])
@@ -8856,6 +9273,7 @@
     * GMAssetCompiler.Program+Del_ParallelExec`2[R,T]
     * GMAssetCompiler.Program+
 # GMAssetCompiler.Program+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -8874,6 +9292,7 @@
     *  
     *  
 # GMAssetCompiler.Program+
+  ## Members
     * System.Collections.Generic.List`1[System.String] ()
     * Void (System.Collections.Generic.List`1[System.String])
     * Boolean ()
@@ -8913,6 +9332,7 @@
     * System.String Name
     * Int32 MipsToGenerate
 # GMAssetCompiler.Program+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -8924,6 +9344,7 @@
     * System.String 
     * System.String 
 # GMAssetCompiler.Program+Del_ParallelExec`2[R,T]
+  ## Members
     * R Invoke(T)
     * System.IAsyncResult BeginInvoke(T, System.AsyncCallback, System.Object)
     * R EndInvoke(System.IAsyncResult)
@@ -8941,6 +9362,7 @@
     * System.Reflection.MethodInfo Method
     * System.Object Target
 # GMAssetCompiler.Program+
+  ## Members
     * Byte[] ()
     * Void (Byte[])
     * System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.List`1[GMAssetCompiler.GML2VM+]] ()
@@ -8975,6 +9397,7 @@
     * Int32 NumErrors
     * System.String Name
 # GMAssetCompiler.Program+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -8984,6 +9407,7 @@
     * System.String 
     * System.String 
 # GMAssetCompiler.Program+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -9076,6 +9500,7 @@
     * System.Diagnostics.DataReceivedEventHandler <>9__518_0
     * System.Diagnostics.DataReceivedEventHandler <>9__518_1
 # GMAssetCompiler.Program+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -9083,6 +9508,7 @@
     * Void .ctor()
     * System.Collections.Generic.Dictionary`2[System.String,System.String] 
 # GMAssetCompiler.Program+[,]
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -9094,6 +9520,7 @@
     * Int32 
     * System.Threading.WaitCallback 
 # GMAssetCompiler.Program+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -9101,6 +9528,7 @@
     * Void .ctor()
     * System.String 
 # .
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -9126,6 +9554,7 @@
     * Boolean Disabled
     * System.Object TypeId
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -9142,6 +9571,7 @@
     * . 
     * . 
 # .
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -9158,6 +9588,7 @@
     * System.String DestFileName
     * . Type
 # GMAssetCompiler.IFFSaver
+  ## Members
     * Void (GMAssetCompiler.GMAssets, System.String)
     * Void (GMAssetCompiler.GMAssets, System.String)
     * Void (GMAssetCompiler.GMAssets)
@@ -9188,6 +9619,7 @@
     * System.Type GetType()
     * Void .ctor()
 # GMAssetCompiler.IFFSaver+IFFSaverCodeEntry
+  ## Members
     * GMAssetCompiler.GML2VM ()
     * Void (GMAssetCompiler.GML2VM)
     * Int64 ()
@@ -9214,6 +9646,7 @@
     * Int32 Flags
     * System.String Name
 # GMAssetCompiler.IFFSaver+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -9226,6 +9659,7 @@
     * Int32 
     * GMAssetCompiler.IFFSaver 
 # GMAssetCompiler.IFFSaver+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -9233,6 +9667,7 @@
     * Void .ctor()
     * System.IO.Stream 
 # GMAssetCompiler.IFFSaver+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -9242,6 +9677,7 @@
     * WriteDelegate`1 <>9__21_0
     * WriteDelegate`1 <>9__22_0
 # GMAssetCompiler.IFFSaver+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -9249,6 +9685,7 @@
     * Void .ctor()
     * System.IO.Stream 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -9280,6 +9717,7 @@
     * . 
     * . 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -9297,6 +9735,7 @@
     * . 
     * . 
 # .
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -9328,6 +9767,7 @@
     * .+
     * .+
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -9341,6 +9781,7 @@
     * UInt32 
     * UInt32 
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -9350,6 +9791,7 @@
     * UInt32 
     * UInt32 
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -9377,6 +9819,7 @@
     *  
     * UInt32 
 # .
+  ## Members
     * . ()
     * Void (IntPtr, IntPtr, .)
     * Void (IntPtr, Int32, IntPtr, .)
@@ -9391,6 +9834,7 @@
     * System.Type GetType()
     * Void .ctor()
 # .
+  ## Members
     * Int16 (System.IO.Stream)
     * Int32 (System.IO.Stream)
     * Int64 (System.IO.Stream)
@@ -9423,6 +9867,7 @@
     * Int32 GetHashCode()
     * System.Type GetType()
 # GMAssetCompiler.Texture
+  ## Members
     * System.Drawing.Bitmap ()
     * Void (System.Drawing.Bitmap)
     * Int32 ()
@@ -9465,6 +9910,7 @@
     * Int32 MipsToGenerate
     * . 
 # .
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.Collections.Generic.List`1[GMAssetCompiler.Texture] ()
@@ -9482,6 +9928,7 @@
     * System.Collections.Generic.List`1[GMAssetCompiler.Texture] Textures
     * System.Collections.Generic.List`1[GMAssetCompiler.TexturePageEntry] Entries
 # GMAssetCompiler.TexturePage
+  ## Members
     * System.Collections.Generic.List`1[GMAssetCompiler.TexturePageEntry] ()
     * System.Collections.Generic.IEnumerable`1[GMAssetCompiler.Texture] ()
     * System.Collections.Generic.Dictionary`2[System.String,.] ()
@@ -9517,6 +9964,7 @@
     * Int32 TextureSizeWidth
     * Int32 TextureSizeHeight
 # GMAssetCompiler.TexturePage+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -9531,6 +9979,7 @@
     * Del_ParallelExec`2 <>9__51_5
     * Del_ParallelExec`2 <>9__51_6
 # GMAssetCompiler.TexturePageEntry
+  ## Members
     * Int32 ()
     * Void (Int32)
     * UInt32 ()
@@ -9627,6 +10076,7 @@
     * Boolean LeaveBorderEmpty
     * Int32 
 # .
+  ## Members
     * Void (Void*, Byte, UInt32)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -9642,6 +10092,7 @@
     * Int32 
     * Int32 
 # GMAssetCompiler.Wave
+  ## Members
     * Boolean ()
     * Void (Boolean)
     * System.String ToString()
@@ -9654,6 +10105,7 @@
     * System.String 
     * GMAssetCompiler.Wave+
 # GMAssetCompiler.Wave+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -9672,6 +10124,7 @@
     * UInt32 
     * UInt32 
 # .
+  ## Members
     * Int32 ()
     * Int32 ()
     * Int32 ()
@@ -9701,6 +10154,7 @@
     * Int32 
     * System.Collections.Generic.List`1[.] 
 # .
+  ## Members
     * System.String ()
     * Void (System.String)
     * Void (System.String)
@@ -9714,6 +10168,7 @@
     * System.IO.FileStream 
     * System.IO.StreamWriter 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -9730,6 +10185,7 @@
     * . 
     * . 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -9744,6 +10200,7 @@
     * . 
     * . 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -9761,6 +10218,7 @@
     * . 
     * . 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -9778,6 +10236,7 @@
     * . 
     * . 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -9803,6 +10262,7 @@
     * . 
     * . 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -9817,18 +10277,21 @@
     * . 
     * . 
 # .
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Type GetType()
     * Void .ctor(System.String)
 # .
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Type GetType()
     * Void .ctor(System.String)
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -9851,6 +10314,7 @@
     * . 
     * . 
 # .
+  ## Members
     * Boolean (System.String)
     * Boolean (System.String, System.String)
     * System.String ToString()
@@ -9858,6 +10322,7 @@
     * Int32 GetHashCode()
     * System.Type GetType()
 # .
+  ## Members
     * Int32[] (Spine.Skeleton)
     * Void (Spine.Skeleton, System.String)
     * System.String ToString()
@@ -9866,6 +10331,7 @@
     * System.Type GetType()
     * Void .ctor()
 # .+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -9876,6 +10342,7 @@
     * Single 
     * Single 
 # .+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -9886,11 +10353,13 @@
     * Single 
     * Single 
 # .
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Type GetType()
 # GMAssetCompiler.Properties.Settings
+  ## Members
     * GMAssetCompiler.Properties.Settings ()
     * System.Configuration.SettingsContext get_Context()
     * System.Configuration.SettingsPropertyCollection get_Properties()
@@ -9933,6 +10402,7 @@
     * System.Configuration.SettingsLoadedEventHandler SettingsLoaded
     * System.Configuration.SettingsSavingEventHandler SettingsSaving
 # GMAssetCompiler.Output.LLVM_Switch
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -9959,6 +10429,7 @@
     * System.String Extension
     * System.Collections.Generic.List`1[System.String] Archs
 # GMAssetCompiler.Output.LLVM_Switch+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -9968,6 +10439,7 @@
     * System.Diagnostics.DataReceivedEventHandler <>9__17_0
     * System.Diagnostics.DataReceivedEventHandler <>9__17_1
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * System.Collections.Generic.List`1[System.String] ()
@@ -9985,6 +10457,7 @@
     * System.String Extension
     * System.Collections.Generic.List`1[System.String] Archs
 # GMAssetCompiler.Output.LLVM_tvOS
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -10053,6 +10526,7 @@
     * System.Collections.Generic.List`1[.] LocalExtraFiles
     * System.Collections.Generic.List`1[.] FileGroups
 # GMAssetCompiler.Output.LLVM_tvOS+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -10062,6 +10536,7 @@
     * System.Diagnostics.DataReceivedEventHandler <>9__77_0
     * System.Diagnostics.DataReceivedEventHandler <>9__77_1
 # GMAssetCompiler.Output.LLVM_WindowsUAP
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -10088,6 +10563,7 @@
     * System.String Extension
     * System.Collections.Generic.List`1[System.String] Archs
 # GMAssetCompiler.Output.LLVM_WindowsUAP+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -10097,6 +10573,7 @@
     * System.Diagnostics.DataReceivedEventHandler <>9__17_0
     * System.Diagnostics.DataReceivedEventHandler <>9__17_1
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -10174,6 +10651,7 @@
     * . 
     * . 
 # .
+  ## Members
     * . ()
     * Void (.)
     * GMAssetCompiler.GMLToken (GMAssetCompiler.GMLToken)
@@ -10185,6 +10663,7 @@
     * . Code
     * System.Collections.Generic.Stack`1[System.Boolean] 
 # .
+  ## Members
     * GMAssetCompiler.GMLToken (GMAssetCompiler.GMLToken)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -10193,6 +10672,7 @@
     * Void .ctor()
     * System.Collections.Generic.Stack`1[System.Boolean] 
 # .
+  ## Members
     * GMAssetCompiler.GMLToken (GMAssetCompiler.GMLToken)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -10201,6 +10681,7 @@
     * Void .ctor()
     * System.Collections.Generic.Stack`1[System.Boolean] 
 # .+
+  ## Members
     * System.String ()
     * Void (System.String)
     * Int32 ()
@@ -10234,6 +10715,7 @@
     * Int32 RValFuncId
     * Int32 NumDimensions
 # GMAssetCompiler.Output.LLVM_Android
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -10290,6 +10772,7 @@
     * System.String 
     * System.String 
 # GMAssetCompiler.Output.LLVM_Android+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -10299,6 +10782,7 @@
     * System.Collections.Generic.List`1[System.Diagnostics.Process] 
     * GMAssetCompiler.Output.LLVM_Android 
 # GMAssetCompiler.Output.LLVM_Android+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -10308,6 +10792,7 @@
     * System.String 
     *  
 # GMAssetCompiler.Output.LLVM_Android+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -10317,6 +10802,7 @@
     * System.Diagnostics.DataReceivedEventHandler <>9__55_0
     * System.Diagnostics.DataReceivedEventHandler <>9__55_1
 # .
+  ## Members
     * UInt32 ()
     * Void (UInt32)
     * UInt32 ()
@@ -10336,6 +10822,7 @@
     * UInt32 
     * UInt32 
 # .
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -10373,6 +10860,7 @@
     * System.Collections.Generic.List`1[.] 
     * . 
 # .
+  ## Members
     * System.String ()
     * Void (System.String)
     * . ()
@@ -10388,6 +10876,7 @@
     * . GroupID
     * System.Collections.Generic.List`1[.] Files
 # GMAssetCompiler.Output.LLVM_iOS
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -10456,6 +10945,7 @@
     * System.Collections.Generic.List`1[.] LocalExtraFiles
     * System.Collections.Generic.List`1[.] FileGroups
 # GMAssetCompiler.Output.LLVM_iOS+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -10465,6 +10955,7 @@
     * System.Diagnostics.DataReceivedEventHandler <>9__79_0
     * System.Diagnostics.DataReceivedEventHandler <>9__79_1
 # .
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -10491,6 +10982,7 @@
     * System.String Extension
     * System.Collections.Generic.List`1[System.String] Archs
 # GMAssetCompiler.Output.LLVM_Mac
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -10557,6 +11049,7 @@
     * System.Collections.Generic.List`1[.] LocalExtraFiles
     * System.Collections.Generic.List`1[.] FileGroups
 # GMAssetCompiler.Output.LLVM_Mac+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -10566,6 +11059,7 @@
     * System.Diagnostics.DataReceivedEventHandler <>9__70_0
     * System.Diagnostics.DataReceivedEventHandler <>9__70_1
 # GMAssetCompiler.Output.LLVM_PS3
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -10594,6 +11088,7 @@
     * System.Collections.Generic.List`1[System.String] Archs
     * Boolean LowerCaseFileNames
 # GMAssetCompiler.Output.LLVM_PS3+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -10603,6 +11098,7 @@
     * System.Diagnostics.DataReceivedEventHandler <>9__17_0
     * System.Diagnostics.DataReceivedEventHandler <>9__17_1
 # GMAssetCompiler.Output.LLVM_PS4
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -10629,6 +11125,7 @@
     * System.String Extension
     * System.Collections.Generic.List`1[System.String] Archs
 # GMAssetCompiler.Output.LLVM_PS4+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -10638,6 +11135,7 @@
     * System.Diagnostics.DataReceivedEventHandler <>9__17_0
     * System.Diagnostics.DataReceivedEventHandler <>9__17_1
 # GMAssetCompiler.Output.LLVM_PSVita
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -10664,6 +11162,7 @@
     * System.String Extension
     * System.Collections.Generic.List`1[System.String] Archs
 # GMAssetCompiler.Output.LLVM_PSVita+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -10673,6 +11172,7 @@
     * System.Diagnostics.DataReceivedEventHandler <>9__17_0
     * System.Diagnostics.DataReceivedEventHandler <>9__17_1
 # GMAssetCompiler.Output.LLVM_Tizen
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -10698,6 +11198,7 @@
     * System.String Extension
     * System.Collections.Generic.List`1[System.String] Archs
 # GMAssetCompiler.Output.LLVM_Tizen+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -10707,6 +11208,7 @@
     * System.Diagnostics.DataReceivedEventHandler <>9__14_0
     * System.Diagnostics.DataReceivedEventHandler <>9__14_1
 # GMAssetCompiler.Output.LLVM_Windows
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -10752,6 +11254,7 @@
     * System.String Extension
     * System.Collections.Generic.List`1[System.String] Archs
 # GMAssetCompiler.Output.LLVM_Windows+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -10759,6 +11262,7 @@
     * Void .ctor()
     * System.Text.StringBuilder 
 # GMAssetCompiler.Output.LLVM_Windows+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -10768,6 +11272,7 @@
     * System.String 
     *  
 # GMAssetCompiler.Output.LLVM_Windows+
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -10776,6 +11281,7 @@
     * System.Collections.Generic.List`1[System.Diagnostics.Process] 
     * GMAssetCompiler.Output.LLVM_Windows 
 # GMAssetCompiler.Output.LLVM_Windows+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -10787,6 +11293,7 @@
     * System.Diagnostics.DataReceivedEventHandler <>9__43_0
     * System.Diagnostics.DataReceivedEventHandler <>9__43_1
 # GMAssetCompiler.Output.LLVM_Windows8
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -10813,6 +11320,7 @@
     * System.String Extension
     * System.Collections.Generic.List`1[System.String] Archs
 # GMAssetCompiler.Output.LLVM_Windows8+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -10822,6 +11330,7 @@
     * System.Diagnostics.DataReceivedEventHandler <>9__17_0
     * System.Diagnostics.DataReceivedEventHandler <>9__17_1
 # GMAssetCompiler.Output.LLVM_WindowsPhone
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -10848,6 +11357,7 @@
     * System.String Extension
     * System.Collections.Generic.List`1[System.String] Archs
 # GMAssetCompiler.Output.LLVM_WindowsPhone+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -10857,6 +11367,7 @@
     * System.Diagnostics.DataReceivedEventHandler <>9__17_0
     * System.Diagnostics.DataReceivedEventHandler <>9__17_1
 # GMAssetCompiler.Output.LLVM_XBoxOne
+  ## Members
     * System.String ()
     * Void (System.String)
     * System.String ()
@@ -10883,6 +11394,7 @@
     * System.String Extension
     * System.Collections.Generic.List`1[System.String] Archs
 # GMAssetCompiler.Output.LLVM_XBoxOne+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -10892,6 +11404,7 @@
     * System.Diagnostics.DataReceivedEventHandler <>9__17_0
     * System.Diagnostics.DataReceivedEventHandler <>9__17_1
 # .
+  ## Members
     * Int64 ()
     * Void (Int64)
     * Int64 ()
@@ -10907,6 +11420,7 @@
     * Int64 TargetOffset
     * . Instruction
 # GMAssetCompiler.Output.eVMCodeBlockType
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -10931,6 +11445,7 @@
     * GMAssetCompiler.Output.eVMCodeBlockType eVMCBT_RepeatBlock
     * GMAssetCompiler.Output.eVMCodeBlockType eVMCBT_AndBlock
 # GMAssetCompiler.Output.VMCodeBlock
+  ## Members
     * Int64 ()
     * Void (Int64)
     * Int64 ()
@@ -10967,6 +11482,7 @@
     * . VMB
     * Int32 ID
 # GMAssetCompiler.Output.VM2JS
+  ## Members
     * System.Collections.Generic.Stack`1[System.String] ()
     * Void (System.Collections.Generic.Stack`1[System.String])
     * GMAssetCompiler.Output.eVMCodeBlockType ()
@@ -10982,6 +11498,7 @@
     * System.Collections.Generic.Stack`1[System.String] VMStack
     * GMAssetCompiler.Output.eVMCodeBlockType Type
 # GMAssetCompiler.Output.VM2JS+<>c
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -10991,6 +11508,7 @@
     * System.Comparison`1[System.Int64] <>9__66_0
     * System.Comparison`1[GMAssetCompiler.Output.VMCodeBlock] <>9__66_1
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * System.String ()
@@ -11031,6 +11549,7 @@
     * Int64 
     * Int64 
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11067,6 +11586,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11103,6 +11623,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11139,6 +11660,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11175,6 +11697,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * GMAssetCompiler.eShaderType ()
@@ -11211,6 +11734,7 @@
     * . AlphaTextureType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11247,6 +11771,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11283,6 +11808,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11319,6 +11845,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11355,6 +11882,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11393,6 +11921,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11429,6 +11958,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11465,6 +11995,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11501,6 +12032,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11537,6 +12069,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11573,6 +12106,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11609,6 +12143,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11645,6 +12180,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11681,6 +12217,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11717,6 +12254,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11753,6 +12291,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11789,6 +12328,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11825,6 +12365,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11861,6 +12402,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11897,6 +12439,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -11933,6 +12476,7 @@
     * . AlphaTextureType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * GMAssetCompiler.eShaderType ()
@@ -11969,6 +12513,7 @@
     * . AlphaTextureType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -12005,6 +12550,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -12041,6 +12587,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -12077,6 +12624,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -12113,6 +12661,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -12149,6 +12698,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * GMAssetCompiler.eShaderType ()
@@ -12187,6 +12737,7 @@
     * . OpaqueTextureType
     * . AlphaTextureType
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -12223,6 +12774,7 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * GMAssetCompiler.eShaderType ()
@@ -12259,6 +12811,7 @@
     * . AlphaTextureType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * GMAssetCompiler.eShaderType ()
@@ -12295,6 +12848,7 @@
     * . AlphaTextureType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * GMAssetCompiler.eShaderType ()
@@ -12331,6 +12885,7 @@
     * . AlphaTextureType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * . ()
@@ -12367,61 +12922,73 @@
     * GMAssetCompiler.eShaderType ShaderType
     * Boolean LowerCaseFileNames
 # .
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Type GetType()
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -12432,6 +12999,7 @@
     * Void .ctor()
     * System.Object TypeId
 # .
+  ## Members
     * Void ()
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -12439,12 +13007,14 @@
     * System.Type GetType()
     * Void .ctor()
 # .
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Type GetType()
     * Void .ctor()
 # .+
+  ## Members
     * System.String (Boolean)
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -12456,12 +13026,14 @@
     * System.String 
     * System.String 
 # SmartAssembly.MemoryManagement.MemoryManager
+  ## Members
     * Void ()
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Type GetType()
 # .
+  ## Members
     * System.String ()
     * Int32 ()
     * System.String ()
@@ -12473,6 +13045,7 @@
     * Int32 MajorVersion
     * System.String AppNameMinusVersion
 # .
+  ## Members
     * System.String ()
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -12480,6 +13053,7 @@
     * System.Type GetType()
     * Void .ctor()
 # .
+  ## Members
     * System.String ()
     * System.String ()
     * System.Object (System.String, System.Object)
@@ -12490,6 +13064,7 @@
     * System.String SubkeyApplication
     * System.String WowSubkeyApplication
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -12504,6 +13079,7 @@
     * . 
     * . 
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -12514,6 +13090,7 @@
     * Void .ctor()
     * System.Object TypeId
 # .
+  ## Members
     * Byte[] (Byte[])
     * Byte[] (Byte[])
     * Byte[] (Byte[], Byte[], Byte[])
@@ -12524,6 +13101,7 @@
     * System.Type GetType()
     * System.String 
 # .+
+  ## Members
     * Int32 (Byte[], Int32, Int32)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -12531,6 +13109,7 @@
     * System.Type GetType()
     * Void .ctor(Byte[])
 # .+
+  ## Members
     * Int32 (Int32)
     * Void (Int32)
     * Int32 ()
@@ -12549,6 +13128,7 @@
     * Int32 AvailableBytes
     * Boolean IsNeedingInput
 # .+
+  ## Members
     * Void (Int32)
     * Void (Int32, Int32)
     * Int32 (, Int32)
@@ -12563,6 +13143,7 @@
     * System.Type GetType()
     * Void .ctor()
 # .+
+  ## Members
     * Int32 ()
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -12572,6 +13153,7 @@
     *  
     *  
 # .+
+  ## Members
     * Boolean ()
     *  ()
     *  ()
@@ -12581,6 +13163,7 @@
     * System.Type GetType()
     * Void .ctor()
 # .+
+  ## Members
     * Int64 ()
     * Void ()
     * Boolean ()
@@ -12596,6 +13179,7 @@
     * Boolean IsFinished
     * Boolean IsNeedingInput
 # .+
+  ## Members
     * Int16 (Int32)
     * Void ()
     * Void (Int32)
@@ -12612,6 +13196,7 @@
     * Void .ctor()
     * .++
 # .++
+  ## Members
     * Void (Int32)
     * Void (Int16[], Byte[])
     * Void ()
@@ -12629,6 +13214,7 @@
     * Int32 
     * Int32 
 # .+
+  ## Members
     * Void ()
     * Boolean (Boolean, Boolean)
     * Void (Byte[])
@@ -12639,6 +13225,7 @@
     * System.Type GetType()
     * Void .ctor()
 # .+
+  ## Members
     * Void (Int32)
     * Void (Byte[], Int32, Int32)
     * Int32 ()
@@ -12654,6 +13241,7 @@
     * Int32 BitCount
     * Boolean IsFlushed
 # .+
+  ## Members
     * Void (Int32)
     * Void (Int32)
     * Int32 ()
@@ -12718,41 +13306,49 @@
     * Int32 ReadTimeout
     * Int32 WriteTimeout
 # .
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Type GetType()
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -12763,6 +13359,7 @@
     * Void .ctor()
     * System.Object TypeId
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -12773,6 +13370,7 @@
     * Void .ctor()
     * System.Object TypeId
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -12783,6 +13381,7 @@
     * Void .ctor()
     * System.Object TypeId
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -12793,6 +13392,7 @@
     * Void .ctor()
     * System.Object TypeId
 # .
+  ## Members
     * Byte[] (Byte[], System.String)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -12801,6 +13401,7 @@
     * Void .ctor()
     * System.String 
 # .
+  ## Members
     * Void (.)
     * Void (.)
     * Void (.)
@@ -12818,6 +13419,7 @@
     * System.EventHandler DebuggerLaunched
     * . SendingReportFeedback
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -12828,6 +13430,7 @@
     * System.String 
     * Int32 
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -12836,6 +13439,7 @@
     * System.String 
     * System.String 
 # .+
+  ## Members
     * Boolean ()
     *  ()
     * Boolean Equals(System.Object)
@@ -12847,6 +13451,7 @@
     * System.String 
     *  
 # .
+  ## Members
     * Void (System.Net.IWebProxy)
     * Void (.)
     * Void (.)
@@ -12857,6 +13462,7 @@
     * Void .ctor()
     * . SendingReportFeedback
 # .+
+  ## Members
     * Void (System.String)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -12865,6 +13471,7 @@
     * Void .ctor(., Byte[], ., )
     * Boolean 
 # .+
+  ## Members
     * Void (System.String)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -12873,6 +13480,7 @@
     * Void .ctor(.)
     * Boolean 
 # .+
+  ## Members
     * System.String ()
     * System.String ()
     * System.String ()
@@ -12886,6 +13494,7 @@
     * System.String EmailAddress
     *  
 # .
+  ## Members
     * Boolean ()
     * System.Object ()
     * System.Type ()
@@ -12897,6 +13506,7 @@
     * Void .ctor(System.Object, System.Type, Boolean)
     * Boolean FirstLevel
 # .
+  ## Members
     * System.Exception ()
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -12904,6 +13514,7 @@
     * System.Type GetType()
     * System.Exception FatalException
 # .
+  ## Members
     * Void Invoke(System.Object, .)
     * System.IAsyncResult BeginInvoke(System.Object, ., System.AsyncCallback, System.Object)
     * Void EndInvoke(System.IAsyncResult)
@@ -12921,6 +13532,7 @@
     * System.Reflection.MethodInfo Method
     * System.Object Target
 # .
+  ## Members
     * System.Exception ()
     * Boolean ()
     * Boolean ()
@@ -12945,6 +13557,7 @@
     * Boolean CanContinue
     * Boolean TryToContinue
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
@@ -12956,6 +13569,7 @@
     * Void .ctor(System.String)
     * System.Object TypeId
 # .
+  ## Members
     * System.Drawing.Bitmap (System.String)
     * System.Drawing.Icon (System.String)
     * System.String ToString()
@@ -12964,6 +13578,7 @@
     * System.Type GetType()
     * Void .ctor()
 # .
+  ## Members
     * System.Security.SecurityException ()
     * System.String ()
     * Boolean ()
@@ -12984,6 +13599,7 @@
     * Boolean TryToContinue
     * Boolean ReportException
 # .
+  ## Members
     * Void Invoke(System.Object, .)
     * System.IAsyncResult BeginInvoke(System.Object, ., System.AsyncCallback, System.Object)
     * Void EndInvoke(System.IAsyncResult)
@@ -13001,6 +13617,7 @@
     * System.Reflection.MethodInfo Method
     * System.Object Target
 # .
+  ## Members
     * . ()
     * Boolean ()
     * System.String ()
@@ -13014,6 +13631,7 @@
     * System.String ErrorMessage
     * System.String ReportID
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -13030,6 +13648,7 @@
     * . 
     * . 
 # SmartAssembly.SmartExceptionsCore.SmartStackFrame
+  ## Members
     * Void GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -13040,6 +13659,7 @@
     * Int32 ILOffset
     * Int32 ExceptionStackDepth
 # .
+  ## Members
     * Void (System.Exception)
     * Void (System.Exception, System.Object)
     * Void (System.Exception, System.Object, System.Object)
@@ -13059,6 +13679,7 @@
     * Void .ctor()
     * System.String 
 # .
+  ## Members
     * Void Invoke(System.String)
     * System.IAsyncResult BeginInvoke(System.String, System.AsyncCallback, System.Object)
     * Void EndInvoke(System.IAsyncResult)
@@ -13076,6 +13697,7 @@
     * System.Reflection.MethodInfo Method
     * System.Object Target
 # .
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -13085,6 +13707,7 @@
     * System.String 
     * System.String 
 # .
+  ## Members
     * Void (System.EventHandler)
     * Void (System.EventHandler)
     * Void (.)
@@ -13104,6 +13727,7 @@
     * System.String 
     * System.String 
 # SmartAssembly.SmartExceptionsCore.UploadReportLoginService
+  ## Members
     * System.String GetServerURL(System.String)
     * Void Discover()
     * System.Web.Services.Protocols.SoapProtocolVersion get_SoapVersion()
@@ -13169,6 +13793,7 @@
     * System.ComponentModel.IContainer Container
     * System.EventHandler Disposed
 # SmartAssembly.SmartExceptionsCore.ReportingService
+  ## Members
     * System.String UploadReport2(System.String, Byte[], System.String, System.String, System.String)
     * Void Discover()
     * System.Web.Services.Protocols.SoapProtocolVersion get_SoapVersion()
@@ -13234,6 +13859,7 @@
     * System.ComponentModel.IContainer Container
     * System.EventHandler Disposed
 # .
+  ## Members
     * Void (System.Net.IWebProxy)
     * Void (.)
     * Void (Byte[], System.String, System.String, System.String, .)
@@ -13243,6 +13869,7 @@
     * System.Type GetType()
     * Void .ctor(System.String)
 # .
+  ## Members
     * System.Drawing.Icon ()
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -13251,6 +13878,7 @@
     * Void .ctor()
     * .+
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -13261,6 +13889,7 @@
     * Int32 
     * Int32 
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -13276,6 +13905,7 @@
     * UInt16 
     * Byte 
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -13291,6 +13921,7 @@
     * UInt16 
     * UInt16 
 # .
+  ## Members
     * Void ()
     * System.String ToString()
     * Boolean Equals(System.Object)
@@ -13298,6 +13929,7 @@
     * System.Type GetType()
     * Void .ctor(System.Xml.XmlWriter, System.String)
 # .
+  ## Members
     * Void set_FlatStyle(System.Windows.Forms.FlatStyle)
     * Void set_Image(System.Drawing.Image)
     * Void set_ImageIndex(Int32)
@@ -13835,6 +14467,7 @@
     * System.EventHandler ParentChanged
     * System.EventHandler Disposed
 # .
+  ## Members
     * System.String ()
     * Void (System.String)
     * Void ()
@@ -14319,6 +14952,7 @@
     * System.EventHandler ImeModeChanged
     * System.EventHandler Disposed
 # .
+  ## Members
     * . ()
     * Void (.)
     * System.String ()
@@ -14805,6 +15439,7 @@
     * System.EventHandler ImeModeChanged
     * System.EventHandler Disposed
 # .
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
@@ -14820,6 +15455,7 @@
     * . 
     * . 
 # .
+  ## Members
     * System.Windows.Forms.AccessibleObject get_AccessibilityObject()
     * System.String get_AccessibleDefaultActionDescription()
     * Void set_AccessibleDefaultActionDescription(System.String)
@@ -15297,6 +15933,7 @@
     * System.EventHandler ImeModeChanged
     * System.EventHandler Disposed
 # .
+  ## Members
     * System.Windows.Forms.AccessibleObject get_AccessibilityObject()
     * System.String get_AccessibleDefaultActionDescription()
     * Void set_AccessibleDefaultActionDescription(System.String)
@@ -15774,21 +16411,25 @@
     * System.EventHandler ImeModeChanged
     * System.EventHandler Disposed
 # .
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Type GetType()
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
 # .+
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.String ToString()
     * System.Type GetType()
 # .
+  ## Members
     * System.Windows.Forms.IButtonControl get_AcceptButton()
     * Void set_AcceptButton(System.Windows.Forms.IButtonControl)
     * System.Windows.Forms.Form get_ActiveMdiChild()
@@ -16517,6 +17158,7 @@
     * System.EventHandler ImeModeChanged
     * System.EventHandler Disposed
 # .
+  ## Members
     * System.String ToString()
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
@@ -16558,6 +17200,7 @@
     * System.String 
     * System.String 
 # .
+  ## Members
     * System.Windows.Forms.IButtonControl get_AcceptButton()
     * Void set_AcceptButton(System.Windows.Forms.IButtonControl)
     * System.Windows.Forms.Form get_ActiveMdiChild()
@@ -17286,6 +17929,7 @@
     * System.EventHandler ImeModeChanged
     * System.EventHandler Disposed
 # .
+  ## Members
     * Boolean ()
     * Void (System.EventHandler)
     * Void (System.EventHandler)
@@ -17300,6 +17944,7 @@
     * System.EventHandler DebuggerLaunched
     * . SendingReportFeedback
 # SmartAssembly.Attributes.PoweredByAttribute
+  ## Members
     * Boolean Equals(System.Object)
     * Int32 GetHashCode()
     * System.Object get_TypeId()
